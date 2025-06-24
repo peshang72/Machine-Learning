@@ -177,7 +177,7 @@ class HousePricePreprocessor:
         df_features = self.df_clean.copy()
         
         # 1. Create age feature
-        current_year = 2024
+        current_year = 2025
         df_features['house_age'] = current_year - df_features['year_built']
         print("1. Created house_age feature")
         

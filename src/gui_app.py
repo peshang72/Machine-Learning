@@ -158,10 +158,10 @@ class HousePricePredictorGUI:
                 'label': 'Year Built',
                 'type': 'int',
                 'min': 1950,
-                'max': 2024,
+                'max': 2025,
                 'step': 1,
                 'default': 2000,
-                'tooltip': 'Year the house was constructed (1950-2024)'
+                'tooltip': 'Year the house was constructed (1950-2025)'
             },
             {
                 'name': 'school_rating',
@@ -367,8 +367,8 @@ RMSE: ${self.performance_metrics['test_rmse']:,.0f}
             if not (500 <= square_feet <= 8000):
                 errors.append("Square footage must be between 500 and 8,000")
             
-            if not (1950 <= year_built <= 2024):
-                errors.append("Year built must be between 1950 and 2024")
+            if not (1950 <= year_built <= 2025):
+                errors.append("Year built must be between 1950 and 2025")
             
             if not (1.0 <= school_rating <= 10.0):
                 errors.append("School rating must be between 1.0 and 10.0")
@@ -453,7 +453,7 @@ RMSE: ${self.performance_metrics['test_rmse']:,.0f}
             garage = self.garage_var.get()
             
             # Calculate derived features
-            current_year = 2024
+            current_year = 2025
             house_age = current_year - year_built
             total_rooms = bedrooms + bathrooms
             price_per_sqft = 200  # Reasonable default, will be adjusted by model

@@ -27,7 +27,7 @@ Our dataset simulates realistic real estate data with intentional quality issues
 | **bedrooms**      | Integer     | Number of bedrooms (1-5)          | Some impossible values (0 bedrooms)               |
 | **bathrooms**     | Float       | Number of bathrooms (1.0-4.0)     | Some impossible values (0 bathrooms)              |
 | **square_feet**   | Integer     | Living area in sq ft (500-15,000) | Extreme outliers (mansion-sized homes)            |
-| **year_built**    | Integer     | Construction year (1950-2024)     | ~5% missing values                                |
+| **year_built**    | Integer     | Construction year (1950-2025)     | ~5% missing values                                |
 | **property_type** | Categorical | House type (4 categories)         | Inconsistent formatting (spaces, underscores)     |
 | **garage**        | Boolean     | Has garage (True/False)           | Mixed representations ('yes', '1', 'True', etc.)  |
 | **school_rating** | Float       | Local school quality (3.0-10.0)   | ~8% missing values                                |
@@ -107,7 +107,7 @@ This dataset provides an excellent foundation for demonstrating professional ML 
 2. **bedrooms** (integer) - Number of bedrooms (1-5)
 3. **bathrooms** (float) - Number of bathrooms (1.0-4.0)
 4. **square_feet** (integer) - Living area in sq ft (500-15,000)
-5. **year_built** (integer) - Construction year (1950-2024)
+5. **year_built** (integer) - Construction year (1950-2025)
 6. **property_type** (categorical) - House type (4 categories)
 7. **garage** (boolean) - Has garage (True/False)
 8. **school_rating** (float) - Local school quality (3.0-10.0)
@@ -120,7 +120,7 @@ This dataset provides an excellent foundation for demonstrating professional ML 
 2. **bathrooms** (original)
 3. **school_rating** (original, cleaned)
 4. **crime_rate** (original, cleaned)
-5. **house_age** (derived: 2024 - year_built)
+5. **house_age** (derived: 2025 - year_built)
 6. **price_per_sqft** (derived: price / square_feet)
 7. **total_rooms** (derived: bedrooms + bathrooms)
 8. **bed_bath_ratio** (derived: bedrooms / bathrooms)
@@ -334,7 +334,7 @@ The GUI application has been completely enhanced to address missing features and
 - **Bedrooms** (1-5): Number of bedrooms with realistic range validation
 - **Bathrooms** (1.0-6.0): Number of bathrooms including half-baths
 - **Square Footage** (500-8,000): Total living area with size validation
-- **Year Built** (1950-2024): Construction year with historical range
+- **Year Built** (1950-2025): Construction year with historical range
 - **Property Type**: Dropdown (Single Family, Condo, Townhouse, Duplex)
 - **Garage**: Boolean selection (Yes/No) for parking availability
 - **Neighborhood**: 7 location options with premium calculation
@@ -500,7 +500,7 @@ This project demonstrates key ML concepts:
 #### ✅ **Added Missing Features:**
 
 - **Bedrooms** input field (1-5 range)
-- **Year Built** input field (1950-2024 range)
+- **Year Built** input field (1950-2025 range)
 - **Property Type** dropdown (Single Family, Condo, Townhouse, Duplex)
 - **Garage** selection (Yes/No)
 

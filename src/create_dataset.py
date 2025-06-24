@@ -46,8 +46,8 @@ def create_messy_house_dataset():
     sqft[outlier_indices] = np.random.uniform(8000, 15000, 20)  # mansions
     
     # Age of house
-    current_year = 2024
-    year_built = np.random.randint(1950, 2024, n_samples)
+    current_year = 2025
+    year_built = np.random.randint(1950, 2025, n_samples)
     age = current_year - year_built
     
     # Property type with inconsistent formatting
