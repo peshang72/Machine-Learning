@@ -34,7 +34,7 @@ class HousePricePredictorGUI:
     def load_model(self):
         """Load the trained machine learning model"""
         try:
-            model_data = joblib.load('house_price_model.pkl')
+            model_data = joblib.load('../models/house_price_model.pkl')
             self.model = model_data['model']
             self.scaler = model_data['scaler']
             self.model_name = model_data['model_name']
@@ -46,7 +46,7 @@ class HousePricePredictorGUI:
             print(f"📊 Model Performance - R² Score: {self.performance_metrics['test_r2']:.4f}")
             
         except FileNotFoundError:
-            messagebox.showerror("Error", "Model file 'house_price_model.pkl' not found!\nPlease run train_model.py first.")
+            messagebox.showerror("Error", "Model file '../models/house_price_model.pkl' not found!\nPlease run train_model.py first.")
             self.root.destroy()
         except Exception as e:
             messagebox.showerror("Error", f"Error loading model: {str(e)}")

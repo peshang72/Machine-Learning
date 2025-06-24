@@ -282,7 +282,7 @@ class HousePricePreprocessor:
         
         return X_scaled
     
-    def save_processed_data(self, filepath='house_prices_processed.csv'):
+    def save_processed_data(self, filepath='../data/house_prices_processed.csv'):
         """Save the processed dataset"""
         # Create final dataset with selected features + target
         final_features = self.selected_features + ['price']
@@ -361,9 +361,9 @@ class HousePricePreprocessor:
                                          ha="center", va="center", color="black", fontsize=8)
         
         plt.tight_layout()
-        plt.savefig('data_analysis_plots.png', dpi=300, bbox_inches='tight')
+        plt.savefig('../visualizations/data_analysis_plots.png', dpi=300, bbox_inches='tight')
         plt.show()
-        print("Visualizations saved as 'data_analysis_plots.png'")
+        print("Visualizations saved as '../visualizations/data_analysis_plots.png'")
 
 def main():
     """Main preprocessing pipeline"""
@@ -374,7 +374,7 @@ def main():
     preprocessor = HousePricePreprocessor()
     
     # Step 1: Load and explore data
-    df_raw = preprocessor.load_and_explore_data('house_prices_raw.csv')
+    df_raw = preprocessor.load_and_explore_data('../data/house_prices_raw.csv')
     
     # Step 2: Clean data
     df_clean = preprocessor.clean_data()
@@ -395,8 +395,8 @@ def main():
     print("✅ PREPROCESSING COMPLETE!")
     print("="*60)
     print("Files created:")
-    print("- house_prices_processed.csv (clean dataset)")
-    print("- data_analysis_plots.png (visualizations)")
+    print("- ../data/house_prices_processed.csv (clean dataset)")
+    print("- ../visualizations/data_analysis_plots.png (visualizations)")
     print(f"\nDataset ready for ML training with {len(selected_features)} features:")
     for i, feature in enumerate(selected_features, 1):
         print(f"{i:2d}. {feature}")

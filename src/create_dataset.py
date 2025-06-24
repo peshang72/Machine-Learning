@@ -180,10 +180,10 @@ if __name__ == "__main__":
     df = create_messy_house_dataset()
     
     # Save to CSV
-    df.to_csv('house_prices_raw.csv', index=False)
+    df.to_csv('../data/house_prices_raw.csv', index=False)
     
     print(f"Dataset created with {len(df)} rows and {len(df.columns)} columns")
-    print(f"Saved as 'house_prices_raw.csv'")
+    print(f"Saved as '../data/house_prices_raw.csv'")
     
     # Display basic info about the dataset
     print("\nDataset Info:")

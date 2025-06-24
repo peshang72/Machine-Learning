@@ -127,17 +127,23 @@ This dataset provides an excellent foundation for demonstrating professional ML 
 
 ```
 team-project/
-├── create_dataset.py          # Dataset generation script
-├── preprocess.py             # Data preprocessing pipeline
-├── train_model.py            # ML model training and evaluation
-├── gui_app.py               # Interactive GUI application
-├── house_prices_raw.csv     # Original messy dataset
-├── house_prices_processed.csv # Clean, ready-to-use dataset
-├── house_price_model.pkl    # Trained ML model
-├── data_analysis_plots.png  # Data exploration visualizations
-├── model_performance.png    # Model comparison plots
-├── feature_importance.png   # Feature importance analysis
-└── README.md               # This documentation
+├── src/                           # Source code directory
+│   ├── create_dataset.py          # Dataset generation script
+│   ├── preprocess.py             # Data preprocessing pipeline
+│   ├── train_model.py            # ML model training and evaluation
+│   └── gui_app.py               # Interactive GUI application
+├── data/                          # Data storage directory
+│   ├── house_prices_raw.csv      # Original messy dataset (1015 rows)
+│   └── house_prices_processed.csv # Clean, ready-to-use dataset (978 rows)
+├── models/                        # Trained models directory
+│   └── house_price_model.pkl     # Best trained ML model (Gradient Boosting)
+├── visualizations/               # Generated plots and charts
+│   ├── data_analysis_plots.png   # Data exploration visualizations
+│   ├── model_performance.png     # Model comparison and evaluation plots
+│   └── feature_importance.png    # Feature importance analysis charts
+├── docs/                         # Documentation directory (for future use)
+├── requirements.txt              # Python dependencies
+└── README.md                    # Project documentation
 ```
 
 ## 🚀 Quick Start
@@ -151,10 +157,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn joblib tkinter
 ### Step 1: Generate Dataset
 
 ```bash
+cd src
 python3 create_dataset.py
 ```
 
-Creates `house_prices_raw.csv` with 1015 rows of messy real estate data including:
+Creates `data/house_prices_raw.csv` with 1015 rows of messy real estate data including:
 
 - Missing values (5-8% per feature)
 - Inconsistent formatting
@@ -164,29 +171,32 @@ Creates `house_prices_raw.csv` with 1015 rows of messy real estate data includin
 ### Step 2: Preprocess Data
 
 ```bash
+cd src
 python3 preprocess.py
 ```
 
 Outputs:
 
-- `house_prices_processed.csv` - Clean dataset
-- `data_analysis_plots.png` - Exploratory visualizations
+- `data/house_prices_processed.csv` - Clean dataset
+- `visualizations/data_analysis_plots.png` - Exploratory visualizations
 
 ### Step 3: Train Models
 
 ```bash
+cd src
 python3 train_model.py
 ```
 
 Outputs:
 
-- `house_price_model.pkl` - Best trained model
-- `model_performance.png` - Performance comparison
-- `feature_importance.png` - Feature analysis
+- `models/house_price_model.pkl` - Best trained model
+- `visualizations/model_performance.png` - Performance comparison
+- `visualizations/feature_importance.png` - Feature analysis
 
 ### Step 4: Run GUI Application
 
 ```bash
+cd src
 python3 gui_app.py
 ```
 
@@ -257,7 +267,7 @@ Launches interactive house price prediction interface.
 
 The project generates several visualization files:
 
-### `data_analysis_plots.png`
+### `visualizations/data_analysis_plots.png`
 
 - Price distribution histogram
 - Price vs square feet scatter plot
@@ -266,14 +276,14 @@ The project generates several visualization files:
 - House age vs price relationship
 - Feature correlation heatmap
 
-### `model_performance.png`
+### `visualizations/model_performance.png`
 
 - Model comparison bar charts
 - Predictions vs actual scatter plot
 - Residuals analysis
 - Performance metrics visualization
 
-### `feature_importance.png`
+### `visualizations/feature_importance.png`
 
 - Feature importance ranking
 - Contribution percentages
@@ -283,20 +293,20 @@ The project generates several visualization files:
 
 ### Adding New Features:
 
-1. Modify `create_dataset.py` to include new variables
-2. Update `preprocess.py` feature engineering section
-3. Retrain model with `train_model.py`
-4. Update GUI input fields in `gui_app.py`
+1. Modify `src/create_dataset.py` to include new variables
+2. Update `src/preprocess.py` feature engineering section
+3. Retrain model with `src/train_model.py`
+4. Update GUI input fields in `src/gui_app.py`
 
 ### Trying Different Models:
 
-1. Add new models to `initialize_models()` in `train_model.py`
+1. Add new models to `initialize_models()` in `src/train_model.py`
 2. Include hyperparameter grids for tuning
 3. Compare performance metrics
 
 ### GUI Enhancements:
 
-1. Add new input widgets to `create_input_panel()`
+1. Add new input widgets to `create_input_panel()` in `src/gui_app.py`
 2. Modify prediction display in `display_prediction()`
 3. Customize styling in `setup_styles()`
 

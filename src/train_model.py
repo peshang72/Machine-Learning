@@ -28,7 +28,7 @@ class HousePriceModelTrainer:
         self.y_train = None
         self.y_test = None
         
-    def load_data(self, filepath='house_prices_processed.csv'):
+    def load_data(self, filepath='../data/house_prices_processed.csv'):
         """Load the preprocessed dataset"""
         print("="*50)
         print("LOADING PROCESSED DATA")
@@ -311,7 +311,7 @@ class HousePriceModelTrainer:
             plt.title(f'Feature Importance - {self.best_model_name}')
             plt.gca().invert_yaxis()
             plt.tight_layout()
-            plt.savefig('feature_importance.png', dpi=300, bbox_inches='tight')
+            plt.savefig('../visualizations/feature_importance.png', dpi=300, bbox_inches='tight')
             plt.show()
             
             return importance_df
@@ -319,7 +319,7 @@ class HousePriceModelTrainer:
             print(f"\nFeature importance not available for {self.best_model_name}")
             return None
     
-    def save_model(self, filename='house_price_model.pkl'):
+    def save_model(self, filename='../models/house_price_model.pkl'):
         """Save the trained model and scaler"""
         print(f"\n" + "="*50)
         print("SAVING MODEL")
@@ -398,10 +398,10 @@ class HousePriceModelTrainer:
         axes[1, 1].set_ylabel('Residuals ($)')
         
         plt.tight_layout()
-        plt.savefig('model_performance.png', dpi=300, bbox_inches='tight')
+        plt.savefig('../visualizations/model_performance.png', dpi=300, bbox_inches='tight')
         plt.show()
         
-        print("Performance plots saved as 'model_performance.png'")
+        print("Performance plots saved as '../visualizations/model_performance.png'")
 
 def main():
     """Main training pipeline"""
@@ -446,9 +446,9 @@ def main():
     print("="*60)
     print("Files created:")
     print(f"- {model_filename} (trained model)")
-    print("- model_performance.png (performance plots)")
+    print("- ../visualizations/model_performance.png (performance plots)")
     if importance_df is not None:
-        print("- feature_importance.png (feature importance plot)")
+        print("- ../visualizations/feature_importance.png (feature importance plot)")
     
     final_r2 = trainer.results[best_model_name]['test_r2']
     final_rmse = trainer.results[best_model_name]['test_rmse']
