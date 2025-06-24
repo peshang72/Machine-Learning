@@ -1,0 +1,1016 @@
+neighborhood,bedrooms,bathrooms,square_feet,year_built,property_type,garage,school_rating,crime_rate,price
+Shopping District Area,2,3.3,1860,2006.0,Duplex,True,,1.45,376806
+Industrial,3,2.2,812,2004.0,Condo,True,3.2,8.55,127447
+Historic,1,2.8,8169,1965.0,Single Family,True,7.0,5.97,1541611
+Shopping District,5,2.9,1732,1963.0,Duplex,0,8.5,1.0,392444
+Waterfront Area,5,2.1,1409,1988.0,townhouse,False,3.1,2.56,370935
+Historic,4,2.5,1866,1977.0,Townhouse,true,6.8,4.65,451611
+historic,2,2.2,2894,2000.0,Duplex,True,9.0,3.18,601331
+Shopping District,1,1.2,2105,1998.0,Townhouse,True,6.3,7.2,382881
+Suburbs,2,2.3,872,1958.0,Condo,1,3.0,1.11,191356
+Waterfront Area,1,1.3,2372,2007.0,Condo,True,3.1,5.39,523341
+Shopping District,4,2.2,1257,1994.0,Condo,True,,3.73,280559
+Waterfront,4,2.8,500,1971.0,Townhouse,True,4.1,2.14,227241
+Waterfront,5,2.7,3197,1981.0,Condo,True,7.7,4.94,808674
+historic,2,3.0,2366,2018.0,Single Family,True,8.0,3.78,509757
+Industrial,5,1.3,1937,2018.0,Condo,True,4.2,7.87,273634
+Waterfront,2,3.0,1724,1991.0,Condo,True,9.2,4.17,476962
+University District,5,1.9,3118,2002.0,Townhouse,True,,5.82,542953
+Historic,3,2.2,4470,2008.0,Condo,True,4.0,1.38,883676
+Suburbs,3,3.6,2359,2023.0,Duplex,True,8.3,3.33,438863
+Industrial,3,1.0,1176,1988.0,Single Family,True,8.5,2.7,191159
+University District Area,3,2.8,1876,1964.0,Townhouse,True,7.5,7.85,379903
+University District,1,2.8,2344,2020.0,Single Family,true,9.0,9.51,419754
+suburbs,3,2.2,500,1978.0,Duplex,True,8.2,,161947
+Industrial,4,1.7,2268,1952.0,Townhouse,True,9.2,6.9,329112
+Historic,4,1.7,2349,1959.0,Townhouse,True,6.0,0.68,534718
+Downtown,1,3.7,3061,1978.0,Condo,True,8.2,0.9,637390
+Industrial,0,2.3,2978,1984.0,Single Family,True,10.0,13.34,398281
+Suburbs,3,2.0,2089,1955.0,Duplex,True,8.1,0.88,397385
+University District,3,2.3,3212,1961.0,Duplex,False,3.8,4.61,537093
+Historic,5,3.0,3629,1987.0,Townhouse,True,6.6,5.29,780308
+Industrial,2,1.4,2022,1968.0,Condo,True,7.1,12.91,268100
+Downtown,5,2.3,2335,2016.0,Townhouse,False,4.2,6.59,479030
+Downtown,2,2.8,586,1957.0,Townhouse,False,9.7,7.11,133437
+Waterfront Area,3,3.8,839,1957.0,Townhouse,True,4.2,3.87,272431
+Waterfront,3,1.8,1329,1996.0,Townhouse,True,4.2,5.4,382634
+Shopping District,5,2.1,1645,1953.0,Duplex,YES,9.4,5.52,334201
+Suburbs,5,2.1,1123,2000.0,Duplex,True,6.3,2.82,285693
+Industrial,2,2.8,1971,2016.0,Townhouse,True,3.4,1.1,296752
+Industrial,0,2.1,1669,1994.0,Townhouse,yes,7.2,1.99,281517
+Shopping District,2,2.6,2857,1957.0,Condo,True,7.2,5.31,490006
+University District,5,3.3,1620,1965.0,Townhouse,False,3.5,9.03,289490
+University District,5,3.1,500,2016.0,Duplex,False,9.8,8.4,169031
+Shopping District,1,2.3,2101,,Single Family,True,6.8,8.66,335124
+University District,5,3.6,1989,2009.0,Duplex,True,6.9,5.35,422797
+waterfront,1,2.7,1310,,Condo,True,6.6,4.49,401018
+Industrial,4,2.6,2076,1964.0,Duplex,False,7.3,12.25,279642
+Shopping District,2,1.1,1140,2020.0,Single Family,True,4.9,5.9,229119
+industrial,2,4.0,2264,1990.0,Townhouse,1,5.0,5.47,347580
+Downtown,1,1.4,4106,1971.0,single-family,True,6.6,6.04,721288
+Waterfront,2,1.7,556,1973.0,Townhouse,True,8.6,4.85,200063
+HISTORIC,5,1.2,1587,1993.0,Townhouse,True,3.3,2.19,361879
+Waterfront,3,2.9,1459,1950.0,Duplex,False,7.2,5.2,420239
+Shopping District,1,1.7,1653,1959.0,Duplex,True,8.6,2.45,310791
+Historic,2,1.5,2816,2021.0,Duplex,True,4.1,4.9,570915
+Downtown,1,1.3,13265,2005.0,Condo,True,3.1,7.84,2188257
+Shopping District,1,1.3,2679,1999.0,Duplex,True,5.2,6.73,453865
+Suburbs,3,2.8,2024,,Condo,False,7.1,2.27,349749
+Industrial,5,3.1,942,2009.0,Duplex,no,4.0,13.49,154765
+Downtown,1,2.2,14339,1975.0,Townhouse,False,6.0,7.87,2381390
+Industrial,2,2.4,2597,1990.0,Condo,False,6.9,4.79,327265
+University District,4,3.1,2137,1985.0,Single Family,True,,6.35,418148
+Suburbs,1,1.1,11215,1972.0,Condo,True,4.9,1.59,1645357
+suburbs,1,2.0,2235,1992.0,Condo,True,5.8,1.62,374927
+DOWNTOWN,3,3.9,1054,1955.0,Single Family,False,8.4,5.25,255712
+Suburbs,5,2.7,1582,2018.0,Condo,True,9.6,4.14,346289
+Historic,4,1.8,2452,1992.0,Townhouse,True,9.0,3.4,542502
+Suburbs,2,2.6,2568,1974.0,Duplex,False,,3.36,421791
+industrial,4,2.0,2684,1967.0,Single Family,yes,5.9,6.19,388543
+INDUSTRIAL,2,2.6,1161,2011.0,Duplex,True,5.3,4.46,158095
+Shopping District,5,1.4,1039,1962.0,Townhouse,True,3.9,8.43,235429
+Industrial,2,1.4,1848,1992.0,Single Family,True,3.7,9.05,163413
+Shopping District,3,1.4,3152,1977.0,Duplex,,7.8,8.26,528238
+Industrial,3,3.8,1445,1967.0,Duplex,False,4.8,3.65,235646
+Historic,3,3.2,2364,2008.0,Townhouse,True,4.8,1.28,519281
+Shopping District,3,1.5,2364,2009.0,Duplex,,10.0,7.61,366038
+Waterfront,4,1.6,2609,2012.0,Townhouse,True,4.3,,643422
+University District,5,3.2,3332,2006.0,Condo,True,4.0,2.28,632278
+Downtown,2,1.5,3250,2000.0,Townhouse,False,3.7,3.78,547956
+Industrial,2,1.7,1524,2005.0,Condo,True,7.1,11.71,186759
+Suburbs,3,3.9,500,1976.0,Single Family,True,7.4,2.34,186918
+INDUSTRIAL,3,1.8,1457,1981.0,Duplex,False,5.6,9.95,195326
+Suburbs,1,3.0,2061,1958.0,Townhouse,True,6.7,1.73,333598
+University District,5,3.9,1711,2017.0,Townhouse,True,8.5,4.03,423901
+University District,4,2.1,3574,1995.0,Duplex,True,8.7,9.52,615449
+University District,2,1.1,9396,2016.0,Duplex,True,9.7,2.83,1567421
+Suburbs,1,1.7,2523,1975.0,Single Family,True,8.8,2.58,429696
+Industrial,1,3.5,2174,1957.0,Single Family,1,7.0,12.3,284145
+University District,2,3.6,1723,1955.0,Townhouse,False,,2.75,322634
+historic,4,3.3,500,1973.0,Single Family,False,,2.89,164448
+Shopping District,1,1.3,1937,1997.0,Condo,True,3.4,5.62,309827
+Suburbs,1,3.4,4604,1994.0,Single Family,True,7.7,2.47,714873
+Suburbs,5,3.8,1004,1962.0,Single Family,True,8.7,2.37,285620
+Industrial,4,2.8,548,2018.0,Townhouse,True,,5.79,115533
+Suburbs,1,3.8,3549,,Condo,True,3.4,2.94,555746
+Suburbs,4,3.5,2594,1969.0,Single Family,False,6.7,3.11,422063
+University District,2,3.0,2150,2015.0,Condo,,9.6,6.48,440917
+Industrial,3,2.7,3090,2023.0,Condo,True,7.2,1.85,456651
+University District,1,2.0,1335,1994.0,Condo,True,8.7,6.28,244856
+Shopping District,5,1.5,1915,,Duplex,True,8.6,8.41,378839
+Shopping District,2,2.8,2764,2012.0,Duplex,True,9.5,5.01,448614
+University District,4,2.0,3688,2004.0,Duplex,True,8.4,7.04,668226
+Shopping District,2,3.6,1065,1968.0,Duplex,False,8.2,5.14,246885
+Industrial,1,4.0,3025,1984.0,Townhouse,True,4.6,,380785
+Downtown,4,3.3,2305,2002.0,Single Family,False,3.4,,400370
+University District,3,1.3,2130,1975.0,Duplex,True,6.6,2.26,391668
+Historic,2,1.9,1994,1963.0,Townhouse,True,3.9,3.02,446050
+Historic,1,1.3,892,1994.0,Single Family,true,9.7,2.75,263314
+Suburbs,5,3.0,2770,1993.0,Duplex,True,5.0,2.12,480098
+Shopping District,4,3.3,1374,2014.0,Single Family,True,9.0,1.59,312227
+Historic,2,3.8,1136,2000.0,Duplex,True,5.7,,309250
+Suburbs,2,2.3,2708,1992.0,Townhouse,False,5.3,0.46,456040
+Downtown,3,3.7,2631,1972.0,Condo,True,9.5,6.69,495935
+INDUSTRIAL,3,3.6,2063,2005.0,Condo,True,5.5,9.84,285369
+Industrial,5,2.0,2864,1968.0,SingleFamily,False,5.7,3.7,399782
+Industrial,5,3.6,3141,2004.0,Townhouse,False,3.7,13.13,407167
+historic,1,2.1,3047,2009.0,Condo,False,7.7,5.43,594277
+Downtown,1,1.9,1577,2008.0,Duplex,True,5.0,6.05,288460
+Historic,5,2.9,2811,1982.0,condo,False,7.1,2.87,622837
+Shopping District,5,0.0,2169,1968.0,Single Family,True,7.1,2.5,420433
+Historic,4,2.9,3381,1977.0,Single Family,True,8.0,4.78,789975
+Downtown,3,2.8,1901,2001.0,Townhouse,True,8.2,2.23,423086
+Downtown,1,2.7,1715,,Single Family,True,6.6,8.4,323997
+Shopping District,3,2.1,1509,1986.0,Condo,True,5.3,7.5,313999
+Downtown,3,2.6,2151,1975.0,Condo,,8.9,,430767
+Downtown,5,2.8,2373,1989.0,Condo,True,5.2,10.5,456413
+Industrial,4,2.6,2389,1987.0,Condo,True,6.6,1.35,349301
+shopping district,2,2.3,2279,2003.0,Townhouse,True,,8.08,396598
+Waterfront,4,1.0,2537,1971.0,Duplex,False,,0.97,646247
+waterfront,4,2.8,1822,1965.0,Duplex,False,6.0,3.74,497393
+Downtown,3,1.5,1302,,Townhouse,True,,3.56,299440
+Waterfront,4,2.9,1232,1984.0,Single Family,False,7.8,4.74,384243
+Waterfront,1,3.3,2780,2009.0,Duplex,True,7.2,3.04,695382
+Downtown,3,2.5,2376,1994.0,Single Family,True,,2.27,467509
+Waterfront,1,2.6,515,1995.0,Duplex,True,6.6,,167152
+Historic Area,2,3.9,2877,2021.0,Single Family,True,8.1,2.85,673070
+Suburbs,3,3.5,3504,2004.0,Townhouse,False,9.9,3.28,614112
+Shopping District,2,3.7,1427,1975.0,Condo,True,7.4,7.83,257804
+Suburbs,3,3.4,2269,1974.0,Single Family,True,5.6,2.14,423054
+Downtown,5,1.3,1621,,Condo,True,4.6,4.01,330275
+Industrial,4,1.4,2503,1955.0,Single Family,True,,1.1,389362
+Shopping District,5,2.6,1067,1972.0,Single Family,False,8.7,5.29,256105
+Downtown,2,1.7,1943,,Single_Family,False,4.6,5.28,345289
+Industrial,4,2.4,2785,1992.0,Single Family,True,4.4,5.96,389237
+Suburbs,3,2.2,2989,1972.0,Single Family,False,8.0,1.12,520720
+Downtown,4,2.6,2341,1979.0,Condo,True,5.2,5.59,465354
+SHOPPING DISTRICT,1,3.2,1729,1967.0,Single Family,False,5.1,8.67,263554
+Shopping District,4,3.1,726,1970.0,Condo,True,4.1,3.01,169680
+University District,1,2.6,1394,2006.0,Townhouse,True,4.8,6.0,253537
+Historic Area,4,3.5,1625,1972.0,Duplex,True,6.0,5.06,374177
+WATERFRONT,1,2.3,1442,1994.0,Single Family,True,8.1,4.28,382711
+Industrial,2,3.7,2048,1993.0,Duplex,True,5.4,,288338
+University District,5,1.2,1726,1996.0,Condo,True,5.3,6.1,362146
+Waterfront,3,3.9,2138,1989.0,Townhouse,True,5.0,4.92,557597
+Waterfront,4,3.0,2962,2000.0,Townhouse,False,6.3,0.43,803669
+Downtown,5,2.1,1675,1991.0,Townhouse,True,4.3,5.65,318619
+Waterfront,3,1.6,894,1956.0,Duplex,True,6.4,1.53,308974
+Historic,3,2.4,1439,1999.0,Condo,True,7.9,2.73,357972
+Shopping District,1,1.6,2467,1997.0,Single Family,False,3.2,3.98,369800
+University District,2,1.5,2542,1955.0,SingleFamily,True,3.1,7.32,427020
+Waterfront,2,2.9,2325,1958.0,Condo,False,,0.84,565212
+Downtown,5,2.6,3041,2006.0,Duplex,False,6.7,6.52,602142
+Historic,2,3.0,1851,1980.0,Single Family,1,9.0,3.79,437078
+SUBURBS,4,3.8,3642,1970.0,Condo,True,3.0,2.52,588483
+Shopping District,2,2.6,2655,,Single Family,True,9.6,6.59,475727
+Shopping District,5,2.7,500,1994.0,Townhouse,True,3.7,3.72,156926
+University District,2,1.3,3441,1998.0,Single Family,0,8.9,9.1,550219
+Shopping District,4,3.2,1386,1969.0,Duplex,False,6.4,4.52,277966
+Waterfront,1,2.2,1173,1966.0,Condo,True,7.6,3.35,340288
+Downtown,5,3.9,2419,1977.0,Duplex,True,6.6,10.04,487499
+Shopping District,1,3.5,609,1990.0,Condo,False,6.3,2.82,153421
+Shopping District,1,2.6,1444,2015.0,Townhouse,True,8.8,1.17,309962
+suburbs,1,1.4,3246,1974.0,Condo,True,8.3,3.49,526123
+Suburbs,3,3.6,2445,2007.0,Single Family,True,6.4,2.47,439572
+Industrial,3,3.4,2650,1990.0,Single Family,True,3.8,13.0,341488
+Historic,1,1.6,1474,1955.0,Townhouse,False,3.8,6.3,278436
+Waterfront,5,1.9,769,1987.0,Condo,True,8.6,2.45,360438
+Shopping District,4,3.4,2565,1955.0,townhouse,True,6.7,3.98,502834
+Shopping District,4,1.6,2744,1994.0,Single Family,False,6.4,3.92,482760
+Downtown,2,3.8,2708,1963.0,Duplex,True,7.8,4.4,521448
+Industrial,5,2.3,2167,2015.0,Townhouse,False,9.0,11.45,315133
+Historic,3,1.3,1226,1989.0,Duplex,1,7.4,4.95,334214
+Industrial,1,3.4,3950,,Duplex,True,8.3,7.36,508280
+University District,2,2.1,2384,1973.0,Condo,False,8.4,1.0,449618
+Historic,4,2.6,1861,1968.0,Townhouse,yes,5.5,2.26,440948
+SHOPPING DISTRICT,3,1.3,1864,1967.0,Duplex,,4.9,2.96,352116
+Shopping District,3,1.0,2120,2013.0,Duplex,True,8.6,7.24,369011
+Historic,1,2.9,2856,1984.0,Condo,True,5.6,0.93,603448
+Shopping District,4,2.5,2152,2011.0,Condo,True,9.3,7.2,399985
+Waterfront,5,2.8,2687,1950.0,Single Family,False,3.5,3.86,689338
+Historic,3,3.4,2121,1974.0,Duplex,False,,4.79,428348
+Industrial,1,2.9,1910,1994.0,Single Family,False,9.5,6.73,286387
+Historic,5,1.5,2513,1998.0,Duplex,True,7.5,4.48,551167
+Shopping District,4,2.1,2483,1965.0,Single Family,True,5.7,5.57,427747
+Waterfront,3,3.7,1864,1968.0,Condo,True,8.3,4.39,509316
+Waterfront,5,3.3,1401,1972.0,Townhouse,False,,2.7,401896
+University District,5,2.7,2273,1974.0,Condo,True,6.7,4.86,467444
+Industrial,5,1.8,2063,1965.0,Single Family,,,9.59,264209
+suburbs,3,1.9,1556,,Single Family,False,8.7,0.79,295116
+Suburbs,3,3.2,1326,2022.0,Townhouse,True,9.1,2.26,322744
+Historic,2,3.6,2328,1950.0,Duplex,,4.2,,498065
+University District,4,3.0,2440,1991.0,Single Family,False,9.0,0.94,465204
+Downtown,1,3.4,1712,,Single_Family,False,9.1,4.31,355979
+Historic,5,3.3,1536,1983.0,Single Family,True,,2.28,436071
+UNIVERSITY DISTRICT,2,1.4,1336,2004.0,Townhouse,True,7.6,6.3,252980
+Industrial,1,2.3,2306,1967.0,Condo,False,5.7,2.33,323175
+Industrial,2,1.5,1357,,Single Family,True,5.0,9.39,160011
+Industrial,3,1.7,3793,1994.0,Townhouse,True,8.1,2.18,533410
+Industrial Area,5,3.6,1672,1955.0,Single Family,True,9.0,2.18,305551
+Industrial,1,2.4,500,1970.0,Duplex,True,,10.73,96061
+University District,1,2.6,1976,2019.0,Townhouse,True,6.6,3.52,408456
+University District,1,1.5,1942,1997.0,Single Family,True,,9.4,289770
+Waterfront,1,1.9,2889,,Townhouse,True,3.4,0.55,685757
+Suburbs,1,1.7,2231,1980.0,Single Family,True,6.1,2.3,401611
+Shopping District Area,2,1.6,1333,1959.0,Condo,False,3.3,1.48,198117
+Industrial,5,2.9,1771,1979.0,Single Family,False,7.0,5.64,295830
+Downtown,3,1.8,2262,1967.0,Townhouse,0,,11.98,419553
+Shopping District,3,2.9,500,2009.0,Duplex,True,8.3,7.88,115593
+University District,3,1.2,3071,2022.0,Duplex,True,5.1,1.03,569924
+Downtown,3,1.4,1335,1964.0,Duplex,True,7.2,7.09,293084
+Downtown,2,1.8,3134,1953.0,Single Family,no,6.8,8.04,530358
+Downtown,4,2.8,2314,2012.0,Condo,True,3.0,3.11,493647
+Waterfront,5,3.0,2504,1989.0,Single Family,yes,3.5,1.11,688267
+University District,1,2.3,2920,1958.0,Duplex,False,5.0,8.74,442316
+Downtown,4,2.3,2459,1958.0,Townhouse,True,9.2,11.65,458062
+Industrial,3,3.2,2538,1975.0,Duplex,True,4.0,14.29,335312
+Historic,4,1.0,1868,1953.0,Townhouse,False,8.0,5.14,425706
+Downtown,5,2.0,2298,1965.0,Condo,False,9.8,8.21,504816
+Waterfront,1,3.5,1530,1964.0,Townhouse,True,8.5,2.17,422247
+Shopping District,1,2.8,1725,2001.0,Single Family,False,4.7,1.96,334055
+University District,5,2.0,3572,2018.0,Single Family,True,9.4,,692791
+waterfront,5,3.7,1353,1954.0,Single Family,False,3.7,3.99,403641
+Downtown,3,3.3,2123,1969.0,Townhouse,True,6.3,9.58,428727
+University District,1,1.8,2091,1967.0,Single Family,,9.2,8.04,316889
+Historic,4,2.9,1751,1951.0,Single Family,True,7.5,5.88,437020
+Downtown,2,2.8,2412,1962.0,Single Family,False,,10.65,446112
+Waterfront,2,2.2,2472,1953.0,Condo,True,5.0,,610440
+Suburbs,5,2.1,1259,1991.0,Townhouse,True,5.6,1.4,318192
+Industrial,3,2.0,2081,2023.0,Townhouse,True,6.6,11.2,315415
+Shopping District,2,2.9,1134,2010.0,Duplex,False,5.2,5.39,201630
+Waterfront,1,2.3,2631,,Townhouse,True,9.8,1.72,694566
+University District Area,5,3.5,2141,2016.0,Condo,True,9.5,9.44,444338
+Downtown,4,3.0,2066,2012.0,Townhouse,True,9.1,10.85,419783
+Industrial,5,1.2,2527,1958.0,Condo,True,6.0,2.63,393043
+Downtown,4,2.9,1780,1960.0,Condo,True,7.8,1.04,425771
+University District,5,1.8,2731,1991.0,Townhouse,True,9.3,6.79,553711
+Downtown,5,2.8,1241,1962.0,Duplex,True,9.0,7.55,358713
+Suburbs Area,5,3.0,3130,1985.0,Single Family,True,5.9,4.51,514354
+Industrial,4,1.7,1559,1962.0,Single Family,False,3.8,4.06,222390
+Industrial,4,2.4,643,1961.0,Townhouse,true,3.5,2.04,148697
+University District,5,1.6,1737,1986.0,Townhouse,True,7.0,2.93,367383
+Shopping District Area,2,1.2,1646,2023.0,Condo,False,7.5,0.71,329019
+Suburbs,3,2.1,1731,2022.0,Townhouse,True,8.9,0.46,379997
+WATERFRONT,3,2.1,2185,2001.0,Condo,False,5.0,5.15,536224
+Downtown,3,4.0,2878,2020.0,Duplex,yes,4.2,4.71,583756
+historic,4,2.3,1847,1951.0,Townhouse,True,5.7,2.86,440440
+Downtown,4,2.0,1447,2005.0,Single Family,True,5.5,0.96,337317
+Downtown,2,2.7,1099,2009.0,Single Family,False,,3.79,255733
+Waterfront,3,1.3,1625,1972.0,Townhouse,True,7.7,4.57,474049
+Downtown,3,3.9,500,1989.0,Condo,True,6.6,,180788
+SUBURBS,5,2.9,1420,2013.0,Single Family,no,8.0,3.69,269350
+Suburbs,4,3.3,2995,1972.0,Condo,True,5.5,,514049
+Industrial,3,1.5,1341,1978.0,Townhouse,True,5.3,5.08,211425
+University District,2,2.2,2503,2000.0,Townhouse,True,6.3,4.95,437747
+Shopping District,2,2.3,1019,2018.0,Single Family,False,9.1,3.22,242227
+historic,3,3.5,3417,1980.0,Townhouse,True,3.3,5.43,690279
+Downtown,4,1.0,3470,1999.0,Duplex,YES,8.6,4.1,688303
+Downtown,2,1.9,2473,1969.0,Duplex,True,5.6,8.17,439121
+Waterfront,5,3.9,3593,,Single Family,True,9.0,1.07,967992
+University District,2,2.4,2285,1951.0,Duplex,,8.6,6.78,391388
+Suburbs,1,2.1,2615,1974.0,Condo,False,5.4,4.41,386417
+Historic,1,1.4,3010,1962.0,Single Family,False,7.9,4.05,582662
+Industrial Area,4,3.9,2144,2019.0,Single Family,False,4.1,8.46,313738
+Suburbs,3,1.1,758,2016.0,Condo,True,9.3,4.63,152015
+University District,4,3.2,10461,2007.0,Duplex,True,5.8,6.25,1739047
+Shopping District,4,3.3,1623,2013.0,Duplex,NO,6.2,2.69,361507
+Industrial,4,1.7,1682,2018.0,Duplex,True,7.9,4.85,297953
+Shopping District,4,3.0,2238,,Single Family,True,8.7,6.37,422190
+Waterfront,5,1.3,2453,2009.0,Single Family,False,4.7,4.21,581426
+Waterfront,5,1.8,2120,2011.0,Duplex,True,7.6,1.94,559719
+Downtown,2,3.4,2509,1965.0,Townhouse,False,5.7,4.64,438833
+Shopping District,1,3.6,1435,2017.0,Duplex,True,5.6,8.73,270729
+University District,4,2.8,1966,1964.0,Condo,1,7.8,1.52,466010
+Historic,2,2.5,2679,2004.0,Single Family,True,5.7,2.83,511160
+Industrial,1,1.5,3418,1984.0,Condo,,5.4,1.74,468420
+Suburbs,3,1.2,3701,2004.0,Condo,False,,3.99,574779
+University District,5,1.4,2346,1963.0,Single Family,True,3.7,,454767
+University District,1,1.7,2672,1998.0,Townhouse,True,7.7,6.67,448045
+Waterfront,3,2.0,3585,1956.0,Duplex,True,4.7,0.65,839331
+Shopping District,1,2.1,1463,1979.0,Condo,True,,6.1,248807
+Downtown,5,2.0,2504,1998.0,Single Family,True,4.2,10.23,474289
+Downtown,5,1.7,2615,1965.0,Condo,False,7.2,5.24,525546
+Industrial,2,2.5,3158,2000.0,Duplex,,8.0,7.95,389495
+Waterfront,4,3.5,1090,2021.0,Townhouse,False,3.1,2.46,374133
+University District,1,1.8,1248,1991.0,Townhouse,NO,3.3,3.3,240068
+Historic Area,1,3.8,2017,1966.0,Townhouse,True,9.3,,462531
+Waterfront,3,3.6,2302,2012.0,single-family,True,3.5,1.78,590413
+Industrial,5,1.5,2898,1994.0,Single Family,False,9.3,10.66,398125
+Industrial,1,3.4,2414,1956.0,Townhouse,True,,3.68,331901
+Waterfront,5,2.7,1879,1976.0,Duplex,True,8.2,1.66,580941
+INDUSTRIAL,1,2.7,2333,1959.0,Duplex,True,5.2,5.44,308961
+WATERFRONT,2,2.2,8477,1983.0,Single_Family,False,,3.44,1873819
+Suburbs,4,2.5,3396,1985.0,Townhouse,False,7.9,2.34,532552
+Waterfront,1,2.2,2133,1974.0,Duplex,False,5.8,4.26,503343
+Shopping District,5,2.6,1694,1955.0,Duplex,True,3.5,2.31,330779
+waterfront,2,2.9,2360,1973.0,Duplex,True,8.1,0.41,641121
+Industrial,1,3.0,2159,1967.0,Single Family,True,7.3,11.38,297689
+Shopping District,3,2.6,743,1955.0,Townhouse,True,3.0,7.33,143438
+Industrial,4,3.2,1987,1978.0,Condo,True,3.1,1.7,309189
+Downtown,1,1.4,1919,1974.0,Townhouse,False,8.7,7.62,349438
+Downtown,2,1.6,1565,2004.0,Townhouse,False,4.8,5.0,300524
+Shopping District,3,3.5,2828,,Single Family,1,7.5,7.1,515069
+Suburbs,2,2.0,1371,1973.0,Duplex,True,6.2,4.23,266397
+Downtown,2,1.1,2364,1975.0,Duplex,True,9.0,,423443
+Waterfront,3,1.5,1882,1977.0,Single Family,True,9.4,4.43,541714
+Industrial,2,1.7,2086,1952.0,Single Family,False,10.0,4.53,314130
+Downtown,3,3.9,2329,1987.0,Single Family,False,4.1,9.88,447968
+Downtown,1,2.7,954,2010.0,Single Family,True,9.0,6.75,227960
+Suburbs,3,3.8,2153,2000.0,Single Family,True,4.9,0.54,407318
+Shopping District Area,3,2.7,3831,1997.0,Condo,True,7.1,4.32,652831
+Shopping District,4,2.4,755,1970.0,Townhouse,True,6.5,8.32,169399
+University District,3,1.9,1954,2003.0,Townhouse,YES,3.1,8.59,361632
+Suburbs,3,2.8,2899,2005.0,Townhouse,True,9.5,0.76,523885
+Waterfront,1,1.4,2241,2008.0,Duplex,True,3.5,4.26,513424
+Shopping District,4,3.7,2550,2021.0,Condo,False,7.8,7.2,454715
+Industrial,5,3.5,500,2000.0,Townhouse,True,8.5,4.56,181247
+Suburbs,1,2.0,2479,1969.0,Duplex,True,8.6,2.42,423747
+Downtown,1,3.9,1391,2008.0,Condo,True,3.9,8.75,240075
+Industrial,5,3.5,2248,2020.0,Condo,True,6.1,6.83,358868
+INDUSTRIAL,3,3.0,1976,1958.0,Duplex,YES,8.8,2.42,313865
+downtown,2,1.4,3823,1950.0,Condo,True,5.1,8.69,656970
+Suburbs,4,2.4,2437,1978.0,Duplex,True,6.3,4.4,438352
+Downtown,2,2.5,1910,2012.0,Townhouse,True,,8.09,354095
+University District,5,1.7,792,2021.0,Duplex,False,6.2,7.56,199287
+Industrial,1,1.2,2097,2005.0,Condo,True,9.2,5.74,320407
+Historic,1,3.3,2659,2017.0,Townhouse,False,6.2,1.5,539638
+Historic,4,1.4,1936,1984.0,Townhouse,True,6.9,4.26,442673
+Waterfront,1,2.8,1595,1952.0,Single Family,True,5.8,2.07,446091
+Shopping District,1,3.8,1542,1956.0,Single Family,True,6.2,7.65,292000
+Downtown,4,3.6,2428,1976.0,Condo,True,3.1,2.13,518557
+Downtown,4,1.8,2608,1950.0,Duplex,False,,5.63,527065
+Waterfront,5,3.6,3089,2020.0,Duplex,False,6.1,2.43,846653
+Waterfront,1,1.0,1204,1993.0,Condo,false,7.4,5.27,269806
+waterfront,1,1.1,2421,1990.0,Townhouse,False,6.2,1.15,537792
+Industrial,5,2.8,1903,1991.0,Condo,True,5.4,1.03,322242
+University District,3,2.1,1926,,Condo,True,,2.74,356712
+Downtown,3,2.2,2321,1999.0,Townhouse,True,4.7,9.98,384342
+Industrial,3,2.7,2326,2012.0,Duplex,False,9.5,3.73,349836
+Waterfront,5,1.6,2423,1986.0,Condo,False,6.7,1.61,643692
+Downtown,1,1.6,1154,,Duplex,True,,2.21,271104
+Industrial,5,2.5,1400,1997.0,Condo,False,3.1,10.56,209553
+University District,5,3.3,3189,1954.0,Townhouse,True,9.8,1.22,681612
+Industrial,3,2.9,1824,1997.0,Townhouse,True,,5.37,277411
+University District,2,1.9,2245,1952.0,Single Family,yes,8.6,3.14,412194
+Waterfront,1,2.3,2844,1996.0,Townhouse,True,3.4,3.26,675336
+University District,3,1.5,2371,2011.0,Single Family,False,9.4,7.17,455868
+Downtown,2,1.2,2437,1963.0,Condo,True,9.1,6.74,471976
+Waterfront,2,3.3,2716,2012.0,Duplex,True,7.0,5.24,697595
+Downtown,4,1.8,500,2010.0,Townhouse,True,3.1,11.45,110429
+historic,1,1.5,1608,1980.0,Townhouse,True,4.8,2.57,358152
+Suburbs,2,3.1,2375,1966.0,Townhouse,True,5.8,3.8,401247
+UNIVERSITY DISTRICT,3,2.9,3110,1973.0,Condo,True,6.2,7.25,603526
+Suburbs,4,2.9,2053,1972.0,Single Family,True,5.1,4.32,387363
+Suburbs,1,1.7,1324,1999.0,Condo,True,3.2,2.32,207238
+University District,5,1.7,1346,2019.0,Duplex,True,7.1,5.37,361563
+WATERFRONT,3,1.7,2707,1976.0,Condo,False,6.7,,644035
+Historic,2,1.5,1826,1964.0,Duplex,True,,5.5,382301
+Downtown,2,3.0,1994,1999.0,Townhouse,True,3.3,3.33,403128
+Industrial,3,3.5,2492,1985.0,Duplex,True,10.0,4.14,391898
+Downtown,2,3.2,500,1957.0,Duplex,True,6.4,4.94,166855
+Industrial,4,3.4,3600,1952.0,Single Family,True,8.3,4.01,492296
+Downtown,1,2.2,1415,,Duplex,NO,6.2,7.06,268862
+University District,4,3.0,2194,1996.0,Duplex,0,3.3,1.81,442517
+Historic,2,2.1,636,2010.0,Condo,False,5.2,2.32,197394
+Industrial,5,2.6,1662,1981.0,Townhouse,True,5.2,13.23,209914
+Shopping District,1,2.4,2996,1962.0,Condo,True,8.9,3.93,505319
+Waterfront,1,1.5,500,,Condo,False,7.6,4.28,138162
+Downtown,3,2.2,2901,1983.0,Townhouse,True,4.9,2.03,570119
+Downtown,3,3.9,1781,2011.0,Townhouse,YES,9.8,3.54,381116
+Industrial,5,1.7,2390,2020.0,Duplex,False,5.3,11.8,305196
+Waterfront,1,1.4,2526,1980.0,Duplex,True,10.0,,607351
+Waterfront,5,2.3,2353,2013.0,Single Family,True,10.0,2.38,628342
+University District,3,3.4,1308,1974.0,Condo,,4.3,9.19,255600
+Shopping District,3,2.7,1708,1987.0,Townhouse,True,5.2,8.06,266410
+University District,1,3.0,831,1963.0,Duplex,True,6.4,9.26,176982
+University District,4,1.6,2393,1957.0,Townhouse,True,7.6,4.45,456747
+University District,2,2.9,3362,2003.0,Duplex,True,6.7,2.38,600784
+University District,3,2.0,540,1951.0,Single Family,True,9.8,6.24,158646
+University District,3,3.5,1391,2005.0,Single Family,True,8.1,6.76,301494
+Historic,4,2.9,1855,2010.0,Townhouse,False,4.5,1.15,441606
+Waterfront,4,1.6,2139,1971.0,SingleFamily,True,3.7,4.48,564930
+University District,5,1.2,2703,,Townhouse,,7.8,0.76,561331
+Waterfront,5,1.1,1878,1965.0,Duplex,True,4.1,2.88,550894
+Waterfront,2,2.1,1747,1999.0,Condo,False,8.5,2.09,476830
+Suburbs,2,1.8,2883,1992.0,Single Family,True,5.2,3.63,467944
+Historic,1,2.9,2530,1966.0,Duplex,True,5.3,2.28,522167
+University District,5,2.5,2431,2007.0,Condo,True,3.1,8.04,437744
+Downtown,3,1.8,2090,1951.0,Condo,False,,7.44,406985
+Industrial,5,1.4,2787,,Condo,True,3.8,11.62,344083
+Shopping District,3,1.4,1475,1988.0,Duplex,yes,8.4,8.71,280462
+Downtown,4,3.6,1366,1955.0,Duplex,True,6.4,8.39,306219
+Historic,5,1.7,2597,2018.0,Townhouse,,8.5,6.31,584338
+Industrial,4,3.0,700,2018.0,Condo,False,7.1,1.29,153416
+Historic,2,3.4,2074,,Condo,False,3.6,2.43,487435
+Waterfront,2,2.8,1747,2013.0,Condo,True,8.4,0.92,471633
+Industrial,1,3.6,875,1965.0,Townhouse,False,3.5,4.44,130968
+Waterfront,5,2.2,1255,2000.0,Condo,True,6.4,4.75,415160
+Downtown,4,3.9,1913,1986.0,Duplex,True,4.2,1.11,437991
+Downtown,3,1.4,2827,2022.0,Condo,True,8.3,6.6,550171
+Industrial Area,2,1.3,1478,2018.0,Single Family,True,9.4,8.56,209168
+Industrial,2,3.0,2971,1991.0,Duplex,False,6.9,,387978
+University District,3,3.8,2051,2006.0,Townhouse,True,,4.88,358907
+Historic,4,3.4,3048,2015.0,Condo,True,8.3,5.14,693671
+University District,4,1.2,1516,1958.0,Single Family,True,3.0,1.8,313651
+HISTORIC,5,1.8,1961,2013.0,Townhouse,,9.4,2.26,512473
+University District,5,3.8,2295,1971.0,townhouse,True,4.4,6.14,429589
+Waterfront,1,1.8,1856,1983.0,Duplex,True,9.9,3.98,479990
+Industrial,2,3.3,2762,2004.0,Townhouse,False,8.2,6.36,384724
+Downtown,5,3.5,500,1978.0,Townhouse,True,8.4,10.6,176823
+Historic,4,2.5,3938,1987.0,Townhouse,True,7.6,2.89,800216
+Historic,3,2.2,2686,1967.0,Townhouse,False,6.3,,548590
+Downtown,4,2.4,1861,2020.0,Condo,False,,,454347
+University District,2,1.7,1558,2014.0,Condo,True,3.3,,289758
+Historic,4,3.7,1307,1950.0,Condo,False,7.4,4.65,301961
+Shopping District,1,2.4,2516,1953.0,Condo,True,7.4,1.49,468868
+Waterfront,2,3.6,2796,1953.0,Single Family,True,9.2,1.95,695217
+Industrial Area,3,1.3,1870,1976.0,Condo,True,6.5,11.45,242789
+DOWNTOWN,1,4.0,2886,1992.0,Townhouse,,3.5,4.87,526072
+Industrial,2,2.3,1274,2008.0,Condo,True,5.1,4.16,223651
+Shopping District,3,1.1,1133,,Condo,True,7.6,,184506
+HISTORIC,1,1.1,3451,1982.0,Duplex,True,4.7,1.58,694630
+Historic,1,3.2,2473,1977.0,Townhouse,False,5.0,5.77,500431
+Shopping District,2,3.0,3117,2004.0,Condo,True,8.7,1.42,551876
+DOWNTOWN,5,3.4,1317,2009.0,Condo,True,7.1,8.7,311725
+Waterfront,1,1.3,1261,2019.0,Condo,True,,2.97,306760
+Suburbs,1,1.1,1713,2011.0,Single Family,False,5.2,4.21,211699
+Downtown,3,2.5,1341,1983.0,Condo,False,8.1,2.17,331012
+Suburbs,4,2.2,2564,2005.0,Duplex,True,5.0,3.35,431439
+Shopping District,2,2.4,1399,1962.0,Townhouse,True,8.2,5.27,271793
+University District,2,4.0,1063,2005.0,Townhouse,False,3.5,4.92,219204
+Suburbs,5,3.9,2114,1967.0,Condo,True,9.1,,416557
+Waterfront,5,3.8,968,2003.0,Condo,False,6.5,4.14,323186
+UNIVERSITY DISTRICT,2,3.4,560,1992.0,Condo,False,6.1,9.04,130284
+Suburbs,5,2.1,2107,1988.0,Townhouse,True,7.3,0.71,379290
+Shopping District,3,2.2,601,2010.0,Townhouse,True,7.4,0.71,209337
+University District,2,2.6,2620,1991.0,Single Family,True,3.9,7.85,445926
+Shopping District,5,3.5,884,1967.0,Duplex,True,8.3,1.44,239735
+Suburbs,2,1.2,500,1972.0,Single Family,True,4.9,4.74,91575
+Shopping District,4,2.3,1765,2003.0,Duplex,True,9.3,5.66,357199
+Waterfront,1,1.2,2116,1979.0,Single Family,True,8.7,3.77,521135
+Suburbs,2,2.5,2393,2007.0,Townhouse,True,5.4,1.2,382275
+Suburbs,1,3.7,2138,,Single Family,True,8.7,1.38,398206
+Suburbs,0,3.3,1153,2016.0,Duplex,True,5.5,3.27,264491
+Downtown,1,1.7,2570,2020.0,Condo,no,3.7,10.98,457257
+Downtown,2,3.9,2768,1967.0,Duplex,YES,9.7,,520607
+DOWNTOWN,4,3.0,1035,1956.0,Condo,no,,2.98,298048
+Waterfront,5,1.0,1855,1989.0,Townhouse,True,6.2,1.05,513613
+University District,2,1.8,1780,2019.0,Duplex,,5.8,1.11,372103
+Shopping District,5,1.8,2176,2014.0,Single Family,False,5.3,7.71,386510
+Historic,3,1.2,1836,2017.0,Duplex,True,9.9,2.17,478484
+Suburbs,1,3.9,1946,1998.0,Condo,True,3.9,0.31,362133
+Shopping District,3,2.4,2513,2001.0,Townhouse,True,5.2,2.4,437479
+Suburbs,2,3.7,1109,1978.0,Single Family,True,6.4,1.83,223895
+Waterfront,4,2.0,2590,1970.0,Duplex,True,6.3,5.55,641402
+Suburbs,5,1.4,2913,1958.0,Condo,True,6.3,2.66,534407
+Downtown,1,2.4,3307,1996.0,Single Family,true,4.2,3.05,580620
+Historic,5,1.3,500,1991.0,Townhouse,True,4.0,2.41,179488
+Industrial,2,2.5,1854,,Single Family,True,,5.36,278802
+Suburbs,5,3.8,500,2005.0,Townhouse,True,9.4,0.39,218210
+Shopping District,1,2.6,500,,Single Family,True,3.8,1.67,142582
+Downtown,2,2.8,2115,2019.0,Duplex,True,8.3,,434287
+Industrial,5,1.5,1681,1969.0,Condo,False,8.3,,253085
+Historic,4,1.1,2240,1976.0,Duplex,True,8.7,1.78,507417
+Industrial,2,1.3,2389,1987.0,Duplex,,9.2,5.63,359778
+Downtown,2,2.8,2998,2021.0,townhouse,True,4.8,9.27,570725
+University District,4,1.3,2043,2014.0,Townhouse,False,4.6,,341496
+University District,3,2.1,4339,2003.0,Townhouse,True,6.3,6.8,762992
+Industrial,1,2.7,2245,1973.0,Duplex,False,,8.55,306252
+Waterfront,3,2.2,3474,1996.0,Single Family,True,8.1,3.94,847381
+SHOPPING DISTRICT,5,1.5,500,2020.0,SingleFamily,True,7.5,0.57,215158
+Shopping District,4,1.8,3080,2012.0,Duplex,False,9.1,8.23,540949
+Industrial,3,3.8,1855,,Duplex,True,3.6,2.4,273863
+Suburbs,2,3.0,500,2004.0,Condo,True,9.4,2.13,208433
+Suburbs,5,2.5,2336,2009.0,Townhouse,0,5.1,3.77,430223
+SHOPPING DISTRICT,5,1.0,1758,2011.0,Townhouse,False,6.4,4.14,343423
+Shopping District,3,4.0,2464,1979.0,Duplex,True,6.1,8.36,434609
+University District,3,3.0,2809,1971.0,Duplex,True,,4.81,543073
+Waterfront,4,2.0,809,,Single Family,False,5.9,4.94,223713
+Downtown,1,3.6,2812,1990.0,Duplex,True,9.6,9.87,563296
+Suburbs,3,1.8,2005,1991.0,Single Family,False,9.3,4.71,372278
+Shopping District,3,2.6,3082,2014.0,Duplex,True,9.1,8.19,561951
+UNIVERSITY DISTRICT,2,2.9,1836,1980.0,Condo,,3.5,8.68,323665
+Historic,5,1.7,1624,1979.0,Condo,False,9.0,4.79,386638
+University District,1,3.9,2022,1967.0,Single Family,True,8.5,3.9,388067
+Suburbs,2,3.2,2081,1966.0,Townhouse,True,3.7,0.78,384335
+Suburbs,4,2.7,1470,1987.0,Condo,True,3.8,3.4,273867
+University District,4,1.5,1603,1963.0,SingleFamily,True,3.7,9.41,289102
+Downtown,3,1.2,1018,2005.0,Duplex,True,3.1,8.92,207007
+Industrial Area,3,2.0,1652,1971.0,Duplex,False,6.8,13.44,195336
+Suburbs,4,3.3,2541,2016.0,Single Family,YES,9.8,3.92,507241
+University District,3,1.8,12273,2005.0,Townhouse,True,,2.07,2016124
+SHOPPING DISTRICT,1,2.6,2807,1968.0,Single Family,False,6.8,2.61,442696
+University District,3,3.2,1852,2006.0,Single Family,1,9.8,3.68,384513
+Waterfront,5,1.3,855,1993.0,Condo,True,4.8,1.23,336195
+Industrial,3,3.1,2478,1984.0,Single Family,True,9.0,8.75,335429
+Historic,2,1.3,1461,1950.0,Single Family,False,6.8,6.25,320644
+Downtown,1,3.9,1813,2001.0,Duplex,True,7.0,9.32,350709
+Historic Area,2,2.5,2990,2019.0,Condo,True,,2.94,639534
+Industrial,2,1.5,1071,1986.0,Duplex,True,6.9,0.96,240165
+Industrial,5,2.0,2132,2014.0,Duplex,True,3.5,5.13,288414
+INDUSTRIAL,1,2.2,1968,2000.0,Townhouse,True,8.4,8.01,256943
+Historic,1,3.3,2561,1950.0,Townhouse,True,5.0,2.35,538072
+Shopping District,1,3.2,2684,,Condo,True,,1.47,540203
+Industrial,1,2.8,2211,2002.0,Condo,False,5.6,6.88,285717
+UNIVERSITY DISTRICT,1,1.3,1712,1965.0,Townhouse,True,4.0,2.88,318132
+Historic,5,1.5,2379,2010.0,Townhouse,True,7.9,5.86,526117
+Industrial,3,1.3,3069,2003.0,Townhouse,True,4.2,2.27,427421
+University District Area,2,2.7,1978,1989.0,townhouse,1,8.3,1.04,403618
+SHOPPING DISTRICT,1,3.6,1786,1975.0,Townhouse,True,9.8,0.59,381667
+Waterfront,3,2.3,2311,2014.0,Duplex,True,8.5,2.07,634450
+Shopping District,3,1.5,2031,2023.0,Condo,True,3.2,6.0,362974
+Industrial,2,2.7,930,2013.0,duplex,False,7.2,10.76,108108
+Historic,5,3.4,2191,1992.0,Duplex,True,7.9,3.12,535658
+Suburbs,4,3.2,923,1966.0,Single Family,True,8.8,3.38,261829
+Industrial,4,3.6,2300,2008.0,Duplex,True,3.4,5.76,317022
+Suburbs Area,3,1.8,1362,1972.0,Townhouse,True,6.4,3.31,271935
+University District,2,1.6,2029,1956.0,Townhouse,True,6.7,0.97,375828
+Waterfront,4,3.6,2312,1993.0,Single Family,True,4.2,2.4,594733
+Downtown,3,3.0,3963,2002.0,Single Family,True,5.3,9.65,731914
+Shopping District,5,1.9,2594,2020.0,Single Family,False,6.1,7.17,482787
+Waterfront,4,3.2,3092,1983.0,Single Family,True,8.8,4.11,801937
+Industrial,3,3.4,3497,1995.0,Single Family,True,9.5,3.66,454383
+SUBURBS,3,2.8,2391,2017.0,Duplex,True,7.4,,441188
+shopping district,1,3.1,2229,1965.0,Single Family,True,,8.77,381380
+Suburbs,5,2.1,1147,2020.0,Duplex,True,4.8,0.77,250288
+Historic,1,2.6,1907,1968.0,Condo,False,9.9,1.48,423584
+Suburbs,2,2.6,1422,1951.0,Single Family,True,9.9,0.89,313732
+Historic,1,3.5,1679,1959.0,Single Family,False,9.5,2.37,360429
+University District,1,3.5,3497,1999.0,Duplex,False,8.5,2.49,588562
+Shopping District,4,3.5,2092,1961.0,Condo,True,5.3,4.66,370098
+Shopping District,3,1.0,1299,2019.0,Duplex,True,8.7,4.48,295696
+Downtown,5,3.2,3100,1971.0,Duplex,True,5.9,10.89,572503
+Industrial,1,3.3,2764,1981.0,Single Family,1,5.3,1.37,406111
+Historic,5,3.0,2806,1950.0,Townhouse,False,8.2,2.32,631607
+Downtown,1,3.3,500,2003.0,Townhouse,True,3.6,7.46,155407
+Suburbs,2,3.5,3559,2007.0,Duplex,False,3.3,3.02,529321
+Suburbs,1,2.4,8890,2019.0,Single Family,True,6.1,2.46,1351691
+Downtown,4,2.5,2622,1967.0,Condo,False,6.1,9.93,461741
+SHOPPING DISTRICT,3,1.4,4019,1955.0,Townhouse,False,9.3,1.07,697223
+Suburbs,2,2.2,3724,1994.0,Condo,True,3.9,3.97,582746
+University District,1,2.9,1218,1972.0,Townhouse,True,3.9,,216523
+University District,5,3.3,844,1972.0,Single Family,True,4.0,,237348
+Downtown,2,1.7,3144,1975.0,Duplex,False,3.2,10.71,515900
+Historic,2,1.4,2114,1956.0,Condo,NO,3.5,4.3,401138
+Historic,1,3.0,1599,,Condo,False,7.6,,380529
+Downtown,2,1.0,2497,1976.0,Duplex,yes,6.0,1.13,465472
+Historic,5,1.5,1870,1975.0,Condo,True,8.3,1.25,513086
+Shopping District,2,1.1,2561,1985.0,Townhouse,False,9.9,5.57,453670
+Shopping District,5,1.5,2054,2004.0,Duplex,True,7.6,2.03,419867
+Historic,1,1.5,2578,,Townhouse,no,3.4,1.75,557203
+University District,3,2.2,1284,2006.0,Townhouse,True,3.7,0.83,276920
+Historic,2,2.2,3140,2018.0,single-family,True,9.2,4.74,691245
+Shopping District,3,3.6,2558,2010.0,Townhouse,True,6.7,7.24,459291
+Waterfront Area,5,2.5,2517,1951.0,Single Family,True,8.8,4.53,693393
+Industrial,2,3.2,1106,2004.0,Condo,True,9.0,2.62,236617
+Suburbs,4,1.3,3360,1987.0,Condo,True,9.5,4.36,576259
+Waterfront,3,1.7,1989,1978.0,Single Family,True,,3.88,560615
+Historic Area,2,3.1,2582,1975.0,Townhouse,True,,5.79,532280
+University District,3,1.2,1742,,Duplex,True,5.4,4.62,331603
+Downtown,2,2.5,2209,2016.0,Duplex,False,9.7,5.67,485392
+Historic Area,1,2.8,2238,1978.0,Single Family,False,6.8,5.11,463760
+University District,3,2.8,500,1983.0,Condo,NO,3.4,1.44,149028
+Industrial,0,1.1,2466,1990.0,Condo,0,,7.93,318163
+Historic,4,2.0,3572,1990.0,Duplex,yes,,5.42,757631
+Shopping District,5,0.0,2432,1972.0,Single Family,1,9.3,7.4,446849
+downtown,2,1.4,1234,2020.0,Duplex,True,,11.51,233393
+University District,3,3.1,2520,1952.0,Townhouse,False,5.4,6.88,448940
+University District,5,3.2,2848,2007.0,Townhouse,True,9.8,2.47,534058
+University District,3,3.9,2410,1981.0,Single_Family,True,8.6,0.78,512844
+Industrial,2,1.6,1941,1980.0,Single Family,False,7.4,7.37,266774
+Historic,4,3.5,1806,1992.0,Townhouse,True,5.1,3.48,427381
+Industrial,1,2.6,1803,1956.0,Condo,True,5.6,4.14,253578
+Suburbs,4,2.1,2558,1950.0,Single Family,yes,7.7,0.86,462855
+Suburbs Area,5,1.4,874,2010.0,Townhouse,True,3.5,2.94,183865
+Historic,1,3.2,1703,1963.0,Townhouse,True,4.8,4.99,369749
+shopping district,5,1.7,3276,2001.0,Condo,True,8.0,8.74,561368
+Industrial,2,2.1,3307,,Condo,True,6.4,11.14,421623
+Downtown,1,1.2,817,1959.0,Condo,True,5.8,9.68,148499
+UNIVERSITY DISTRICT,5,3.4,1095,2020.0,Condo,False,4.1,6.15,256699
+University District,2,3.3,1784,1979.0,Duplex,False,6.1,9.47,317482
+Historic,4,3.2,2714,1970.0,Condo,True,8.4,4.24,625836
+Shopping District,2,1.9,538,2009.0,Duplex,False,4.8,7.65,91172
+SUBURBS,3,1.5,1956,2023.0,Single Family,True,,4.56,352420
+suburbs,2,2.9,1621,2012.0,Townhouse,true,7.7,4.48,311896
+University District,2,2.5,11968,1991.0,Duplex,True,9.8,4.03,1947350
+Historic,3,1.5,658,2000.0,Single Family,True,7.2,0.87,244424
+Industrial,5,3.1,2074,2013.0,Single Family,YES,3.8,3.22,364172
+Suburbs Area,5,4.0,1685,2005.0,Duplex,True,5.2,0.57,352526
+Industrial,2,3.2,3176,1990.0,Single Family,True,9.1,2.32,453265
+Shopping District,3,3.2,2478,1981.0,Single Family,False,4.6,2.07,435691
+Suburbs,3,3.9,1531,1964.0,duplex,True,7.3,1.83,328978
+Suburbs,4,1.6,2683,2011.0,Single Family,True,5.8,2.75,471418
+Waterfront,5,2.7,1689,1976.0,Condo,True,4.5,4.09,446999
+Suburbs,1,3.9,2799,1977.0,Condo,True,8.7,1.25,470383
+Downtown,5,1.5,1810,2013.0,Townhouse,True,8.2,8.32,392915
+Historic,5,3.1,2844,2008.0,Single Family,True,7.6,4.63,634578
+Historic,4,2.8,2349,2007.0,Townhouse,True,4.7,3.75,498043
+Industrial,1,2.8,4608,1951.0,Condo,False,,13.1,571337
+Shopping District,4,3.1,1958,1985.0,Condo,True,,1.47,385130
+Suburbs,1,3.8,2306,,Condo,False,6.9,1.1,414306
+Downtown,2,3.3,1616,1962.0,Single Family,True,4.3,5.57,323827
+Industrial,1,1.2,2002,1964.0,Single Family,True,3.4,2.61,249522
+Waterfront,4,3.6,500,2009.0,Condo,True,3.6,3.32,227958
+Industrial,5,1.7,2372,1971.0,Townhouse,True,9.9,6.28,369905
+Industrial,1,2.1,3074,2012.0,Townhouse,True,8.5,4.74,408034
+Suburbs,1,2.4,2317,2023.0,Duplex,True,9.5,1.06,424548
+Waterfront,3,2.4,949,1974.0,Condo,NO,4.4,2.11,296187
+Industrial,5,2.3,1359,1997.0,Townhouse,False,9.7,9.11,180616
+Downtown,2,3.8,500,,Condo,True,4.0,7.23,119788
+downtown,4,3.1,2783,1987.0,Townhouse,True,6.6,2.59,573317
+Historic,2,2.9,1195,1990.0,Duplex,True,8.8,1.15,320270
+WATERFRONT,5,1.1,1977,1994.0,Duplex,True,5.4,,542046
+Waterfront,1,3.7,1877,1989.0,Condo,False,6.0,0.42,506739
+HISTORIC,1,3.7,3190,1966.0,Townhouse,False,,5.68,598413
+INDUSTRIAL,5,3.3,2068,2006.0,single-family,False,3.9,,358456
+Waterfront,1,1.0,2647,1951.0,Duplex,True,7.3,4.19,588781
+Downtown,1,1.2,2437,2011.0,Condo,True,7.7,10.56,380224
+Downtown,1,1.7,3088,1958.0,Condo,True,8.4,1.85,605489
+Suburbs,4,1.4,1809,2017.0,Townhouse,False,6.9,2.26,327725
+Waterfront,4,2.2,9527,1966.0,Condo,True,7.5,5.4,2097700
+Industrial,3,3.8,500,1999.0,Duplex,True,3.1,12.16,103771
+Historic,2,2.4,2686,1989.0,Condo,True,4.1,3.34,543141
+Historic,5,1.0,1307,2007.0,Condo,False,9.9,4.98,352561
+Industrial,5,1.8,1606,1970.0,Single Family,True,3.5,12.15,209405
+Shopping District,5,1.1,2456,1967.0,Single Family,True,7.8,3.42,471274
+University District,3,1.1,2449,2004.0,Duplex,False,4.2,8.63,392994
+Suburbs,4,1.8,2485,1978.0,Townhouse,no,8.0,2.42,413935
+Historic,3,1.8,891,1973.0,Single Family,True,7.9,3.57,292284
+Waterfront,5,3.4,3159,2023.0,Townhouse,True,4.6,5.6,835857
+Suburbs,2,3.9,1279,1966.0,Duplex,False,4.9,4.09,220258
+Waterfront,1,2.1,1386,1967.0,Single Family,False,,2.25,362503
+shopping district,4,2.3,2510,1991.0,Townhouse,True,5.7,0.64,504795
+Downtown,4,3.5,1771,1994.0,Single Family,True,4.4,7.79,345019
+Suburbs,3,1.8,14548,1966.0,Duplex,True,8.1,3.47,2132791
+Historic,4,1.5,500,2022.0,Duplex,NO,,4.3,184572
+Suburbs,5,3.6,2227,1963.0,Single Family,True,9.0,4.66,472570
+Suburbs,5,1.1,2174,1998.0,Townhouse,True,6.6,4.18,392498
+Suburbs,3,2.9,1592,1978.0,Condo,True,3.7,2.32,319219
+University District,5,2.7,500,1953.0,Condo,False,7.9,1.17,168936
+Suburbs,2,2.0,1830,1969.0,single-family,True,6.6,2.44,336160
+Waterfront,3,1.9,1970,1996.0,Townhouse,True,5.1,3.97,498729
+Downtown,2,3.3,1706,1958.0,Condo,True,6.0,,377671
+Shopping District,1,1.3,531,1976.0,Duplex,True,5.1,4.99,147585
+Industrial,2,1.7,3276,1964.0,Townhouse,True,4.8,7.23,467847
+Suburbs,1,3.2,1489,1968.0,Condo,,4.1,1.62,243851
+Historic,1,2.6,1822,2001.0,Townhouse,True,5.5,2.06,404288
+Suburbs,2,1.4,500,,Single Family,False,4.8,2.55,119076
+Historic,3,3.6,3276,1975.0,Townhouse,True,7.8,1.36,703708
+Waterfront,5,2.2,1627,1975.0,Condo,True,7.8,2.14,499511
+HISTORIC,5,3.5,2079,1995.0,Single_Family,True,6.5,2.34,528895
+Industrial,1,3.4,2897,1998.0,Townhouse,True,8.4,8.83,376638
+Downtown,1,2.9,1459,2002.0,Duplex,True,8.9,1.5,320380
+historic,3,2.5,2771,1952.0,Condo,False,7.1,,553646
+Historic,4,3.9,500,2015.0,Single Family,False,7.3,3.77,193720
+Downtown,2,1.4,2441,1991.0,Townhouse,True,5.0,8.3,452498
+Industrial,1,3.2,3258,1968.0,Duplex,False,9.3,10.39,400935
+Suburbs,5,1.6,1536,1966.0,Condo,True,,,284065
+Historic,3,2.0,2895,1982.0,Duplex,,5.4,3.22,599967
+Downtown,2,1.9,3467,1998.0,Townhouse,1,8.1,11.51,608343
+Waterfront,3,3.8,1796,2005.0,Townhouse,True,3.6,4.38,466810
+Downtown,2,3.9,1730,,Single Family,False,4.3,11.66,317513
+Waterfront,2,1.5,1281,1952.0,Duplex,True,7.1,4.27,343403
+Industrial,1,1.1,1592,1998.0,Single Family,True,6.9,3.27,189084
+Suburbs,3,3.2,1348,2004.0,Condo,True,8.2,0.59,321929
+Downtown,3,2.3,1281,1975.0,Single Family,yes,8.7,7.25,272476
+Shopping District,5,1.3,2959,2021.0,Condo,False,3.9,3.5,511871
+Shopping District,5,3.1,1368,2001.0,townhouse,True,3.1,2.82,282105
+University District,1,0.0,2207,1956.0,Townhouse,False,7.8,7.86,380765
+Historic,1,3.9,2031,1995.0,Duplex,True,,2.6,442449
+Industrial,4,1.7,3198,1995.0,Condo,True,7.4,5.18,467340
+Downtown,5,2.2,1597,1965.0,Townhouse,False,4.1,10.31,336678
+Shopping District,2,2.6,2305,1973.0,Duplex,,6.3,7.53,381794
+Historic,3,3.4,2633,2010.0,duplex,0,6.5,2.54,547565
+Shopping District,1,2.6,3192,2003.0,Single Family,True,7.1,7.42,512541
+Downtown,3,2.8,1586,2011.0,Duplex,True,6.6,10.32,324111
+Waterfront,3,1.7,1506,,Townhouse,True,6.5,,423377
+Downtown,4,0.0,1151,1998.0,Single Family,True,5.3,1.5,292049
+University District Area,5,2.3,3789,1974.0,Condo,True,3.5,0.61,673554
+DOWNTOWN,1,1.4,3108,1959.0,Condo,False,3.6,6.64,475189
+Downtown,3,3.0,1966,1965.0,Townhouse,True,6.0,4.62,387820
+University District Area,1,1.6,3545,2007.0,Townhouse,True,5.5,9.57,601950
+Industrial,2,1.3,1919,2021.0,Single Family,True,6.6,11.33,272351
+Downtown,4,3.6,2580,1978.0,Single Family,True,5.1,9.31,490793
+University District,2,2.4,2008,1955.0,Townhouse,True,7.8,9.2,380452
+Historic,1,3.2,2318,1965.0,Townhouse,False,9.0,5.73,453888
+Waterfront,1,1.9,2233,1969.0,Condo,False,5.1,2.02,526988
+Waterfront Area,5,3.4,1660,2020.0,Condo,False,4.4,1.22,471205
+downtown,3,1.3,2874,1992.0,Condo,False,3.8,9.14,496193
+Industrial,3,2.1,2573,1975.0,Townhouse,True,7.3,,368535
+Industrial,2,3.9,2822,2020.0,Duplex,False,6.1,7.29,396534
+Historic,4,3.4,2256,1982.0,Townhouse,True,4.3,4.18,528811
+Downtown Area,3,2.5,1275,1975.0,Townhouse,,,10.96,278853
+Waterfront,5,2.0,3368,1994.0,Condo,True,4.0,2.55,806547
+Industrial,2,3.6,1790,2012.0,Townhouse,True,6.9,11.47,271190
+Downtown,2,2.6,2291,2016.0,Single_Family,False,6.7,,456869
+SHOPPING DISTRICT,5,3.3,2508,2001.0,Townhouse,True,8.1,6.31,437201
+Industrial,4,3.3,2286,2017.0,Townhouse,False,3.4,0.92,351172
+University District,5,1.1,2732,1975.0,Townhouse,True,9.2,8.44,524746
+Shopping District,4,1.4,2859,1951.0,Townhouse,True,7.9,,510225
+Industrial,5,3.0,1820,1963.0,Duplex,False,4.5,,280184
+Waterfront,5,1.5,3300,1979.0,Townhouse,,4.3,,808362
+Suburbs,1,1.8,1786,1998.0,Single Family,True,6.0,1.5,303765
+Shopping District,2,3.8,2269,1961.0,Single Family,1,8.7,4.65,412756
+Historic,5,2.7,1690,1993.0,Townhouse,True,,2.92,409797
+Historic,5,3.3,1461,1982.0,Condo,True,6.6,1.55,383131
+Waterfront Area,3,2.7,2835,1962.0,Duplex,True,9.0,2.1,722709
+Industrial,2,2.7,4498,1975.0,Townhouse,False,3.0,10.72,539484
+Downtown,3,1.3,1711,1970.0,Townhouse,False,3.2,8.28,238723
+Industrial,2,2.0,2972,1977.0,Townhouse,False,9.4,1.87,429924
+Waterfront Area,3,1.8,1739,1997.0,Condo,False,8.4,4.27,470427
+Historic,5,2.2,1992,1989.0,Condo,1,6.2,0.72,514130
+Industrial,5,3.4,3406,2015.0,Condo,True,8.3,8.23,468937
+Historic,1,2.1,1141,2022.0,Duplex,True,9.7,1.96,320152
+Shopping District,3,2.4,929,1972.0,Single Family,True,8.4,5.4,237457
+DOWNTOWN,4,2.2,1930,1997.0,Duplex,False,8.9,3.69,431055
+Shopping District,1,1.3,2531,1951.0,Condo,True,8.3,8.68,442738
+historic,3,2.3,2371,1969.0,Single Family,True,4.2,2.26,516552
+HISTORIC,3,1.6,2289,2008.0,Single Family,True,8.8,1.85,521868
+Suburbs,1,1.6,2027,1995.0,Condo,True,,1.55,307165
+Suburbs,5,1.3,2629,1952.0,Condo,True,9.2,,490706
+Shopping District,3,2.1,500,2004.0,Duplex,True,6.2,5.8,129600
+University District,5,3.3,1399,1961.0,Condo,True,7.7,7.18,319798
+Shopping District,1,1.8,1925,1989.0,Single Family,1,6.5,8.12,319392
+Suburbs,5,1.9,2564,2015.0,Townhouse,True,3.7,4.4,409273
+Historic,2,2.9,8815,1965.0,Condo,True,5.0,4.83,1641347
+Waterfront,4,1.6,11263,1983.0,condo,False,9.9,1.39,2507769
+Shopping District,3,3.7,3166,1993.0,Duplex,True,9.7,7.51,559439
+Historic,4,2.6,1638,,Duplex,True,,1.62,416492
+Waterfront,5,2.3,1896,2013.0,Condo,False,10.0,4.25,549861
+Waterfront,3,2.7,2465,1971.0,Single Family,True,8.9,3.95,629110
+Suburbs,5,1.5,1837,1967.0,Single Family,False,7.3,,327457
+Shopping District,2,2.8,13848,1961.0,Townhouse,False,3.3,4.94,2108494
+INDUSTRIAL,1,2.1,1676,,Condo,True,9.3,9.52,249177
+Downtown,3,3.7,1688,2000.0,Duplex,False,6.9,11.47,314298
+Suburbs,2,1.5,2842,2020.0,Single_Family,0,9.1,0.75,458343
+Suburbs Area,2,2.5,1390,1997.0,Townhouse,True,8.8,1.69,280064
+Industrial,3,2.8,2199,1968.0,Condo,True,8.8,9.15,331069
+Downtown,5,1.1,672,1955.0,Single Family,False,,11.6,182311
+Historic,2,2.1,3456,1976.0,Condo,False,5.0,0.97,695959
+UNIVERSITY DISTRICT,4,3.2,2965,2002.0,Condo,True,5.4,0.8,546070
+Shopping District,2,3.5,4200,1997.0,Single Family,True,5.2,1.01,705836
+University District,5,1.9,3071,,SingleFamily,False,3.1,,572244
+Historic,5,3.4,1096,2008.0,Single Family,True,7.1,5.85,332813
+Suburbs Area,4,3.9,2535,2018.0,Condo,True,7.9,3.55,492941
+DOWNTOWN,2,3.6,1266,1960.0,Condo,False,9.0,8.37,260950
+Suburbs,5,1.4,3262,1964.0,Townhouse,True,4.0,2.65,560862
+Waterfront,3,3.2,1119,2013.0,Duplex,True,6.8,4.46,337450
+Suburbs,1,2.0,1081,1952.0,Condo,False,3.1,1.0,192362
+Suburbs,1,4.0,712,2018.0,Duplex,no,,2.06,183149
+Historic,1,2.5,1609,1972.0,Single Family,True,3.4,3.34,355566
+Historic,2,1.4,1448,2002.0,Condo,True,8.1,1.06,370362
+Historic,4,3.2,991,1986.0,Townhouse,True,3.6,2.92,290618
+University District,5,2.0,3592,1958.0,Townhouse,False,8.0,3.45,637937
+Waterfront,3,4.0,2424,1964.0,Duplex,True,4.7,0.54,646313
+Historic,3,3.9,2330,1952.0,Single_Family,True,9.1,1.22,539894
+Downtown,2,3.0,3271,2019.0,Duplex,True,,9.35,617330
+University District,1,1.4,2205,1966.0,Single Family,False,9.7,0.76,393094
+Industrial,2,3.1,1401,1975.0,Townhouse,True,9.2,,205616
+Downtown,4,1.3,640,1970.0,Duplex,True,9.5,1.72,180987
+Shopping District,4,1.1,1356,2021.0,Townhouse,True,9.0,7.14,308820
+SHOPPING DISTRICT,5,3.5,3204,1970.0,Townhouse,False,7.9,7.96,558639
+Downtown,5,1.6,996,1960.0,Single Family,True,4.2,11.34,248661
+Historic,4,2.1,2283,1987.0,Duplex,True,4.9,5.6,488689
+Industrial,4,3.9,2827,2021.0,Duplex,True,4.5,4.78,418991
+Industrial,4,2.0,2228,1984.0,Townhouse,False,7.2,5.4,333057
+University District,2,1.9,2319,1963.0,Townhouse,True,,4.44,425873
+Industrial,4,3.8,2524,1963.0,Single Family,True,9.1,2.78,402033
+Shopping District,3,1.3,2303,1959.0,Condo,True,9.7,0.73,465633
+Waterfront,1,3.3,3287,1961.0,Condo,False,5.8,4.91,742144
+HISTORIC,4,4.0,1168,1987.0,Townhouse,True,6.5,3.72,355155
+Industrial,1,3.7,2192,1983.0,Condo,False,9.8,9.12,263907
+University District,2,3.0,545,1990.0,Condo,False,4.9,8.94,142946
+shopping district,1,1.9,500,1959.0,Condo,True,8.5,6.04,91750
+Waterfront,2,1.8,1935,1966.0,Condo,True,4.6,3.98,506844
+Suburbs,3,3.5,2435,1966.0,Townhouse,True,7.8,3.84,397770
+Suburbs,2,3.6,3305,2016.0,condo,True,4.8,0.82,609006
+Waterfront,2,2.6,3936,2011.0,Condo,True,9.2,2.24,956577
+Shopping District,5,1.7,3056,1950.0,Single Family,True,6.9,8.54,509897
+University District,4,1.3,2582,1961.0,Townhouse,False,4.3,8.91,472662
+Waterfront,4,1.3,2128,,Duplex,True,4.6,4.99,513917
+Historic,3,3.2,775,1991.0,Duplex,false,,3.11,222001
+Historic,3,2.3,1883,1962.0,Single Family,True,9.7,5.54,492086
+suburbs,4,3.7,3032,1953.0,Single Family,True,8.4,0.52,557824
+Industrial,5,3.2,11525,2018.0,Townhouse,False,6.4,2.9,1432919
+University District,4,1.6,971,1968.0,Duplex,True,5.4,4.33,224286
+Suburbs,5,2.8,2491,1951.0,Condo,False,6.8,2.48,437086
+Industrial,3,2.3,2423,1961.0,Single Family,True,8.2,4.46,360187
+Industrial,1,2.7,2280,2023.0,Duplex,True,8.5,5.71,337131
+Historic,3,3.2,1978,1955.0,Townhouse,false,5.3,1.38,457166
+Shopping District,3,0.0,2532,1957.0,Condo,True,8.0,4.59,438582
+Downtown,2,3.5,2558,2000.0,Townhouse,True,7.6,9.68,468943
+Shopping District,2,1.8,1487,1960.0,Single Family,False,9.7,,282131
+Downtown,2,1.1,2364,2012.0,Duplex,True,9.5,1.96,464454
+Waterfront,2,3.2,1848,2006.0,Duplex,False,8.5,2.91,513072
+Historic,5,1.3,810,1961.0,Duplex,NO,,4.59,224560
+industrial,4,1.9,1551,2022.0,duplex,False,4.9,8.05,236498
+University District,1,1.0,749,1951.0,Condo,True,8.9,4.13,175594
+Downtown,3,3.0,2784,1957.0,Condo,true,6.0,7.75,505373
+Shopping District,5,1.5,2285,1960.0,Townhouse,False,,8.54,387710
+Industrial,1,3.0,1716,2002.0,Condo,True,5.7,2.18,232909
+Downtown,5,4.0,3136,1959.0,Single Family,True,,5.14,636029
+Downtown,5,1.2,2054,1957.0,Single Family,True,4.0,5.32,414357
+Downtown,3,1.2,855,1985.0,Duplex,True,6.2,7.24,166867
+university district,4,2.0,1648,1963.0,Single Family,False,6.4,1.97,354155
+Historic,2,3.6,3306,2003.0,Townhouse,False,3.3,1.46,669939
+University District,4,1.6,1464,1970.0,Condo,True,4.4,3.17,318943
+Suburbs,3,2.1,2220,1999.0,Condo,True,8.8,,395078
+Industrial,3,1.2,2595,1988.0,Condo,False,8.8,10.81,312037
+Historic,3,3.3,2472,1969.0,SingleFamily,True,5.0,4.37,534410
+Historic,1,2.2,3960,1956.0,Condo,False,9.1,5.3,781094
+Historic,4,3.3,1059,1958.0,Duplex,True,8.4,1.17,307893
+Shopping District,4,3.7,1139,1950.0,Duplex,True,5.9,7.64,224510
+historic,5,1.7,1072,1975.0,Duplex,True,8.2,3.97,307780
+University District,5,3.4,1763,1987.0,Single Family,False,9.7,3.62,383278
+Historic,5,1.2,2880,1987.0,condo,True,6.2,5.3,612936
+Waterfront,3,3.7,1175,2010.0,Single Family,True,4.7,4.56,346230
+Industrial,4,3.0,2891,1993.0,Condo,True,9.6,12.32,402414
+Historic,3,3.6,2028,1993.0,Townhouse,False,7.2,1.09,496696
+Industrial,1,1.0,1113,2023.0,Townhouse,False,3.7,13.99,133559
+Waterfront Area,5,1.5,599,2011.0,Single Family,True,7.0,5.39,245977
+Waterfront,3,2.2,778,1955.0,Duplex,True,6.5,2.23,258787
+Industrial,3,2.1,1467,1966.0,Single Family,True,9.0,1.79,239920
+Downtown,1,1.7,1865,2000.0,Duplex,YES,6.7,2.63,389355
+Suburbs,2,2.1,3077,1987.0,Condo,True,4.8,4.77,478445
+Shopping District,4,1.4,2639,1973.0,Duplex,True,7.7,,455261
+Downtown,2,2.2,1329,2000.0,Duplex,True,6.8,4.76,330289
+Downtown,5,3.4,2327,1959.0,Condo,True,4.6,3.99,519195
+University District,3,2.4,3321,,Townhouse,True,7.0,2.91,630473
+Shopping District,1,1.1,3499,1970.0,Condo,False,8.8,6.03,535870
+Shopping District,1,2.3,1748,2019.0,Single Family,True,3.2,4.01,336089
+Downtown,4,1.1,2767,2006.0,Single Family,True,7.4,11.61,493713
+Historic,2,3.9,11088,1988.0,Single Family,True,5.4,4.5,2098442
+University District,4,1.4,794,1982.0,Single Family,True,5.0,7.73,170514
+University District,3,3.1,1590,2008.0,Single Family,,5.7,3.23,369578
+Waterfront,4,3.9,9851,1967.0,Townhouse,False,5.4,0.77,2190519
+Shopping District,1,3.5,1759,2005.0,Townhouse,True,8.8,4.57,385298
+Downtown,1,3.1,500,2006.0,Duplex,True,4.9,4.29,144541
+Waterfront,5,3.5,1903,1997.0,Single Family,True,8.1,1.41,604388
+Industrial Area,5,3.9,9325,1991.0,Condo,False,3.7,13.76,1132914
+Suburbs,3,2.9,2005,1976.0,Single Family,True,9.7,,359465
+University District,0,2.7,2572,2023.0,Townhouse,True,7.4,2.17,466886
+Industrial,4,2.9,2751,,Single Family,True,7.9,3.58,435434
+Industrial,3,2.6,1716,1991.0,Townhouse,True,5.1,4.69,261568
+Historic,5,2.9,1584,1981.0,Duplex,False,5.9,6.4,345121
+Suburbs,4,2.3,2123,1975.0,Duplex,False,4.6,1.51,399033
+Industrial,5,1.7,2142,1974.0,Duplex,True,9.5,5.34,359711
+Industrial,4,1.4,2043,1972.0,Townhouse,True,6.4,9.8,312195
+Suburbs,2,1.2,2076,2006.0,single-family,False,7.4,1.62,324614
+Suburbs,3,1.8,1401,2001.0,Single Family,True,8.1,1.27,313461
+Industrial,4,1.1,2600,1980.0,Condo,True,5.6,3.04,380982
+Suburbs,1,2.7,2479,2013.0,Townhouse,False,8.0,1.71,441776
+Industrial Area,1,1.9,931,2020.0,Condo,False,7.7,2.33,180238
+Industrial,4,3.5,1689,1982.0,Duplex,True,7.9,1.15,299494
+Historic,4,1.2,2074,1951.0,Single Family,True,6.4,5.23,483156
+Downtown,4,1.7,1573,1967.0,Townhouse,True,5.7,2.3,370661
+Industrial,1,3.2,2510,1996.0,Condo,False,4.6,11.38,324200
+Waterfront,1,2.8,1946,1982.0,Condo,True,8.8,4.54,495203
+University District,4,1.2,2135,1984.0,Condo,True,7.3,5.44,410443
+Shopping District Area,5,3.6,1679,2000.0,Single Family,True,6.1,3.1,326014
+Downtown,5,3.6,500,1967.0,Single Family,yes,9.6,,214179
+downtown,2,2.0,500,2021.0,Single Family,True,3.3,9.04,144843
+Downtown,3,2.0,2472,1979.0,Townhouse,True,9.0,7.52,494376
+Historic,5,4.0,2214,1993.0,Single Family,True,10.0,4.33,529248
+Industrial,1,2.9,2351,2002.0,Townhouse,1,9.2,1.02,379050
+Historic,5,2.6,2108,1959.0,Condo,False,8.7,5.97,540195
+Industrial,2,3.5,2172,2001.0,Condo,yes,5.6,1.79,308164
+Historic,2,1.9,2775,1998.0,Duplex,False,4.6,,549657
+Historic,3,2.3,2356,1960.0,single-family,False,8.1,2.82,501376
+University District,5,1.8,2833,2015.0,Condo,True,5.1,0.61,572188
+Waterfront,1,3.4,2137,2007.0,Single Family,True,4.2,2.96,536046
+Historic,1,2.7,1760,1985.0,Townhouse,False,8.5,4.92,362217
+University District,4,3.0,2155,1982.0,Condo,True,5.2,8.01,402132
+Suburbs,1,1.8,1331,1996.0,Single Family,YES,9.4,4.26,253278
+Waterfront,3,1.7,1696,1962.0,Condo,True,,2.91,489584
+Historic,3,2.5,2142,1989.0,Condo,True,8.9,4.18,521197
+Shopping District,1,3.2,2131,2017.0,Single Family,False,8.4,1.21,410998
+Downtown,1,2.6,1915,1991.0,Condo,False,9.2,6.24,354874
+Suburbs,4,1.1,889,1968.0,Condo,False,8.6,1.0,223150
+Suburbs,1,3.6,2509,1968.0,Condo,True,,1.96,441538
+University District,4,1.2,2667,2007.0,Condo,True,5.1,3.56,492152
+Suburbs,4,3.9,3315,1972.0,Townhouse,True,9.2,2.21,597193
+Waterfront,1,1.1,2353,2003.0,Condo,True,8.9,3.35,572718
+Historic,2,3.1,2001,2014.0,Duplex,True,6.3,5.82,424259
+Historic,2,1.2,1190,1961.0,Condo,True,3.3,,232856
+Shopping District,4,3.7,3194,1973.0,Single Family,True,7.5,8.64,551362
+Downtown,1,2.4,2198,1983.0,Duplex,True,3.4,9.29,343694
+University District,2,1.4,2155,2002.0,Townhouse,True,9.5,5.2,397644
+Downtown,1,2.0,1797,1957.0,Duplex,1,9.7,8.0,362530
+Suburbs,1,1.5,1746,1967.0,Duplex,True,4.3,0.76,270613
+Shopping District,1,1.5,2551,2006.0,Duplex,True,,7.52,416709
+Downtown,5,3.8,1183,1954.0,Single Family,True,3.6,7.3,281061
+Waterfront,1,2.3,3300,1975.0,SingleFamily,False,8.1,5.53,746073
+historic,5,3.4,3126,1979.0,Single Family,False,5.4,4.22,652786
+Suburbs,4,2.9,1717,2003.0,Townhouse,False,,4.05,328981
+Shopping District Area,2,3.0,1309,1962.0,Single Family,yes,5.6,7.15,256878
+Downtown,2,1.4,500,1978.0,Single Family,True,,4.64,129850
+University District,2,1.7,999,1952.0,Duplex,True,5.8,,214870
+Waterfront,2,3.4,2584,2007.0,Single Family,False,3.8,2.61,634329
+Waterfront,2,3.9,2252,1951.0,Condo,True,7.0,2.8,568822
+Downtown,2,1.8,2395,1977.0,Single Family,False,3.3,3.45,445920
+Historic,2,1.8,524,1951.0,Townhouse,True,6.7,5.77,167505
+Downtown,4,2.4,1683,1956.0,Townhouse,False,9.2,6.85,359758
+Suburbs,1,4.0,3094,1975.0,Condo,False,8.9,4.7,500507
+Downtown,3,1.8,1923,1965.0,townhouse,True,9.2,9.86,341220
+Waterfront,5,2.2,982,1972.0,Townhouse,True,9.5,3.27,393269
+Shopping District,3,3.7,1911,1989.0,Duplex,YES,3.7,8.36,354666
+Downtown,3,1.0,1383,2009.0,Condo,True,3.9,6.43,253384
+Historic,1,1.1,2267,2022.0,Duplex,True,6.9,5.72,494850
+Shopping District,1,2.8,2016,1981.0,Duplex,1,9.3,3.5,382619
+UNIVERSITY DISTRICT,1,3.7,2435,1964.0,Single Family,True,9.8,4.01,459534
+Industrial,2,1.7,1026,1962.0,Condo,True,3.3,6.54,172816
+Downtown,4,2.4,1641,1954.0,Single_Family,True,5.5,6.9,336075
+Historic,2,2.4,2872,2023.0,Single Family,True,4.5,3.72,637859
+Shopping District,4,2.4,917,2001.0,Duplex,True,8.3,4.65,240646
+Historic,4,2.9,1198,1990.0,Townhouse,True,7.5,2.24,360107
+University District,3,2.4,2159,2002.0,Condo,False,3.8,8.94,376343
+Waterfront,3,2.3,2229,1999.0,Townhouse,,,3.44,588305
+Historic,4,2.4,1609,1964.0,Duplex,False,7.8,2.85,394672
+Shopping District,4,2.8,1777,1956.0,Duplex,True,8.5,5.92,342341
+Historic,2,2.6,2427,1989.0,Duplex,True,,5.01,493548
+Historic,2,3.6,2680,1977.0,Duplex,True,9.2,6.16,595449
+Historic,3,1.1,1145,1981.0,Duplex,True,7.0,3.4,306594
+SUBURBS,1,3.5,9378,1964.0,Duplex,True,8.7,0.8,1434275
+Suburbs,4,3.5,3210,2019.0,Townhouse,True,8.7,2.28,543783
+Waterfront,2,1.9,1907,2014.0,Single Family,,4.3,2.86,476593
+Downtown,3,2.4,1136,1953.0,Townhouse,True,3.8,10.84,212989
+Historic,2,2.3,1099,1960.0,Condo,True,8.0,,271245
+University District,4,1.7,1871,1975.0,Townhouse,False,,9.18,342433
+DOWNTOWN,4,2.2,2829,2010.0,Duplex,True,8.9,6.21,520893
+University District,5,1.1,1967,1986.0,townhouse,True,8.1,9.36,397451
+Downtown,1,1.8,2151,1972.0,Single Family,False,8.9,,452721
+Waterfront,5,3.5,1203,1989.0,Condo,True,5.1,5.07,378836
+Historic,3,1.9,2786,1972.0,Townhouse,False,5.2,5.99,549602
+Historic,2,3.5,1083,1965.0,Single Family,True,7.7,,299180
+Industrial,3,2.6,1596,2010.0,Townhouse,True,3.2,1.08,237429
+University District,4,3.6,2504,2017.0,Condo,False,8.1,2.15,532087
+Downtown,5,2.7,500,1980.0,Townhouse,True,8.9,8.1,163777
+Downtown,5,1.1,2139,2002.0,Duplex,False,5.9,1.04,420043
+Suburbs,5,3.0,1169,1974.0,Townhouse,True,8.4,0.59,294131
+Industrial,3,1.1,2013,1993.0,Single Family,True,4.2,3.88,285357
+Shopping District,4,2.4,1718,1961.0,Townhouse,False,5.3,4.78,285145
+Shopping District,2,3.8,3685,1958.0,Single Family,True,9.8,5.05,670138
+Suburbs,2,1.5,1686,1961.0,Condo,False,9.9,0.45,307158
+Suburbs,3,2.2,3474,2018.0,Townhouse,True,6.6,1.07,610029
+SUBURBS,5,3.2,2470,2003.0,condo,True,9.5,2.55,503105
+UNIVERSITY DISTRICT,1,3.6,1359,2003.0,Condo,True,6.7,5.95,279420
+University District,3,3.0,2265,1977.0,Townhouse,False,5.0,1.94,454936
+Waterfront,3,1.8,1756,2005.0,Single Family,True,4.9,2.44,451951
+Waterfront,4,3.0,2194,2018.0,Condo,True,9.5,5.1,658515
+Suburbs,2,1.9,1429,2007.0,Condo,False,4.2,4.8,217713
+INDUSTRIAL,3,3.2,3352,1991.0,Townhouse,False,7.1,14.23,406805
+Downtown,3,3.9,2740,1987.0,Townhouse,True,6.9,10.67,486151
+University District,5,3.2,2025,2017.0,Townhouse,True,8.2,4.15,461755
+industrial,5,3.6,3383,2002.0,Townhouse,True,6.5,10.17,478979
+Historic,1,1.0,2059,1982.0,Townhouse,,4.9,2.9,437635
+University District,4,3.2,2878,2020.0,Duplex,True,4.2,6.44,518556
+University District,1,3.5,2031,2005.0,Townhouse,True,7.3,3.38,403530
+waterfront,5,1.1,2315,2021.0,Single Family,True,8.0,3.53,657005
+DOWNTOWN,2,3.6,1935,2000.0,Condo,False,7.0,6.64,387193
+Downtown,5,1.8,2076,2023.0,Single Family,False,8.2,1.03,459425
+Shopping District Area,4,3.0,2136,1992.0,Single Family,true,4.0,7.07,333991
+Shopping District,5,3.4,1464,,Duplex,True,9.2,0.65,368721
+Shopping District,4,3.0,1679,1987.0,Townhouse,True,7.1,2.97,348612
+Shopping District,4,1.3,1827,1964.0,Condo,True,3.9,0.6,361500
+Historic,4,2.8,2184,1954.0,Single Family,,6.2,2.66,487323
+Historic,4,2.6,1976,2003.0,Townhouse,True,8.9,0.78,499973
+University District,4,3.7,2938,2000.0,Townhouse,True,9.3,8.82,568886
+Suburbs,2,2.2,2678,1959.0,Duplex,True,4.9,2.17,407366
+Waterfront,1,2.0,1843,1961.0,Duplex,True,8.0,,503901
+Waterfront,3,3.2,3105,,Duplex,True,3.7,2.19,757930
+Shopping District,1,2.2,3498,1967.0,Condo,True,3.2,5.73,587269
+University District Area,4,2.9,500,1985.0,Single Family,True,6.9,7.66,147683
+industrial,2,2.9,2746,1974.0,Duplex,True,7.9,,355428
+Suburbs,5,3.7,1446,1985.0,Duplex,False,8.6,3.67,302085
+University District,2,2.8,2641,2016.0,Duplex,False,5.4,8.75,473807
+Suburbs,4,2.5,2991,1958.0,Single Family,True,3.0,4.19,486289
+Suburbs,2,1.4,1298,2010.0,Single Family,True,6.4,3.33,254930
+Suburbs,2,1.3,518,2002.0,Duplex,True,3.1,1.27,117934
+University District,4,1.5,2668,1967.0,Duplex,True,3.6,6.34,476931
+Shopping District,2,1.5,2108,1992.0,Townhouse,True,,4.73,410853
+waterfront,3,2.9,665,1984.0,Duplex,1,6.1,4.12,256220
+Waterfront Area,3,3.2,4024,2012.0,Condo,True,5.0,4.72,954497
+Shopping District,2,2.6,2500,1953.0,Condo,True,7.1,6.68,403392
+SUBURBS,5,3.5,2536,1990.0,Duplex,True,3.4,4.11,473457
+Industrial,4,4.0,3093,1994.0,Single Family,True,4.0,1.76,470999
+Downtown,3,3.5,1535,1999.0,Townhouse,False,7.9,1.11,340211
+UNIVERSITY DISTRICT,5,3.1,2104,1977.0,Single Family,,4.0,2.93,452298
+Downtown,2,2.6,945,1991.0,Duplex,True,7.5,10.88,205222
+Shopping District,5,2.3,1514,2018.0,Condo,YES,,7.35,311649
+Industrial,1,1.3,2309,1950.0,Townhouse,False,5.9,10.12,302295
+University District,3,2.2,668,1988.0,Single_Family,False,4.2,6.91,130697
+Waterfront,3,1.8,1756,2005.0,Single Family,True,4.9,2.44,451951
+Shopping District,4,2.5,2152,2011.0,Condo,True,9.3,7.2,399985
+Historic,2,2.4,2872,2023.0,Single Family,True,4.5,3.72,637859
+Suburbs Area,5,1.4,874,2010.0,Townhouse,True,3.5,2.94,183865
+Shopping District,3,1.0,1299,2019.0,Duplex,True,8.7,4.48,295696
+Downtown,2,2.5,2209,2016.0,Duplex,False,9.7,5.67,485392
+Shopping District,4,2.2,1257,1994.0,Condo,True,,3.73,280559
+Industrial,3,3.4,3497,1995.0,Single Family,True,9.5,3.66,454383
+Shopping District,3,2.7,1708,1987.0,Townhouse,True,5.2,8.06,266410
+Suburbs,5,1.4,3262,1964.0,Townhouse,True,4.0,2.65,560862
+Historic,4,1.7,2349,1959.0,Townhouse,True,6.0,0.68,534718
+Suburbs,1,2.0,2479,1969.0,Duplex,True,8.6,2.42,423747
+Downtown,5,1.3,1621,,Condo,True,4.6,4.01,330275
+SHOPPING DISTRICT,3,1.4,4019,1955.0,Townhouse,False,9.3,1.07,697223
+Shopping District,4,3.2,1386,1969.0,Duplex,False,6.4,4.52,277966
