@@ -9,7 +9,7 @@ This project implements an end-to-end machine learning solution for house price 
 - **Realistic Dataset**: Custom-generated dataset with intentional data quality issues
 - **Comprehensive Preprocessing**: Data cleaning, feature engineering, and selection
 - **Multiple ML Models**: Comparison of 6 different algorithms
-- **High Accuracy**: Achieved 99.01% R² score with Gradient Boosting
+- **High Accuracy**: Achieved 99.06% R² score with Gradient Boosting
 - **Interactive GUI**: User-friendly Tkinter application for predictions
 - **Complete Pipeline**: From raw data to deployable application
 
@@ -90,12 +90,68 @@ This dataset mimics common real estate data challenges:
 After cleaning and preprocessing:
 
 - **Original**: 1,015 rows × 10 columns
-- **Processed**: 978 rows × 8 features (+ target)
+- **Engineered**: 978 rows × 14 potential features (+ target)
+- **Final Selection**: 978 rows × 7 optimized features (+ target)
 - **Data Quality**: 100% complete, standardized formatting
-- **Feature Engineering**: Added derived features (house_age, price_per_sqft, total_rooms)
+- **Feature Engineering**: Added derived features (house_age, price_per_sqft, total_rooms, etc.)
+- **Feature Selection**: SelectKBest chose most predictive features
 - **Ready for ML**: Encoded categoricals, normalized distributions
 
 This dataset provides an excellent foundation for demonstrating professional ML preprocessing techniques and achieving high-accuracy predictions.
+
+## 🔄 Complete Feature Transformation Pipeline
+
+### Original Dataset Features (10 total):
+
+1. **neighborhood** (categorical) - Property location (7 areas)
+2. **bedrooms** (integer) - Number of bedrooms (1-5)
+3. **bathrooms** (float) - Number of bathrooms (1.0-4.0)
+4. **square_feet** (integer) - Living area in sq ft (500-15,000)
+5. **year_built** (integer) - Construction year (1950-2024)
+6. **property_type** (categorical) - House type (4 categories)
+7. **garage** (boolean) - Has garage (True/False)
+8. **school_rating** (float) - Local school quality (3.0-10.0)
+9. **crime_rate** (float) - Neighborhood safety (0.3-14.3)
+10. **price** (target) - House price ($91K-$2.5M)
+
+### Feature Engineering Creates (14 potential features):
+
+1. **square_feet** (original)
+2. **bathrooms** (original)
+3. **school_rating** (original, cleaned)
+4. **crime_rate** (original, cleaned)
+5. **house_age** (derived: 2024 - year_built)
+6. **price_per_sqft** (derived: price / square_feet)
+7. **total_rooms** (derived: bedrooms + bathrooms)
+8. **bed_bath_ratio** (derived: bedrooms / bathrooms)
+9. **neighborhood_encoded** (transformed: label encoded)
+10. **property_type_encoded** (transformed: label encoded)
+11. **age_category_encoded** (derived: binned house_age)
+12. **size_category_encoded** (derived: binned square_feet)
+13. **garage_numeric** (transformed: boolean to 0/1)
+14. **bedrooms** (original)
+
+### Final Selected Features (7 total):
+
+**SelectKBest with f_regression selects the top 7 most predictive features:**
+
+1. **square_feet** - Strongest predictor (80.94% importance)
+2. **price_per_sqft** - Market value indicator (18.30% importance)
+3. **neighborhood_encoded** - Location premium (0.32% importance)
+4. **total_rooms** - Space factor (0.15% importance)
+5. **school_rating** - Quality of life (0.13% importance)
+6. **crime_rate** - Safety factor (0.09% importance)
+7. **bathrooms** - Convenience factor (0.07% importance)
+
+### Features Discarded (7 total):
+
+- **bedrooms** → Replaced by `total_rooms` (more predictive)
+- **year_built** → Age less important than size/location
+- **property_type_encoded** → Location dominates over property type
+- **garage_numeric** → Less predictive than other amenities
+- **bed_bath_ratio** → Total count more informative than ratio
+- **age_category_encoded** → Age binning not in top predictors
+- **size_category_encoded** → Categorical size bins have 0% importance (redundant with square_feet)
 
 ## 🎯 Key Features
 
@@ -104,7 +160,7 @@ This dataset provides an excellent foundation for demonstrating professional ML 
 - **Data Cleaning**: Handles missing values, inconsistent formatting, duplicates
 - **Outlier Detection**: Identifies and handles extreme values
 - **Feature Engineering**: Creates derived features like house age, price per sqft
-- **Feature Selection**: Selects top 8 most important features
+- **Feature Selection**: Uses SelectKBest to identify top 7 most predictive features from 14 engineered features
 - **Visualization**: Generates comprehensive data analysis plots
 
 ### 🤖 Machine Learning (`train_model.py`)
@@ -215,7 +271,7 @@ Launches interactive house price prediction interface.
 
 ## 🎯 Key Insights
 
-### Most Important Features (Gradient Boosting):
+### Most Important Features (Gradient Boosting) - Top 7 Selected:
 
 1. **Square Feet** (80.94%) - Primary price driver
 2. **Price per Sq Ft** (18.30%) - Market value indicator
@@ -312,19 +368,18 @@ The GUI intelligently transforms user-friendly inputs into the 8 optimized featu
 **User Input → Model Feature Mapping:**
 
 ```
-User Inputs (9 features):          Model Features (8 features):
-├─ bedrooms                    →
+User Inputs (9 features):          Model Features (7 features):
+├─ bedrooms                    →   [combined into total_rooms]
 ├─ bathrooms                   →   ├─ bathrooms
 ├─ square_feet                 →   ├─ square_feet
-├─ year_built                  →
-├─ property_type               →
-├─ garage                      →
+├─ year_built                  →   [not used by model - GUI reference only]
+├─ property_type               →   [not used by model - GUI reference only]
+├─ garage                      →   [not used by model - GUI reference only]
 ├─ neighborhood                →   ├─ neighborhood_encoded
 ├─ school_rating               →   ├─ school_rating
 ├─ crime_rate                  →   ├─ crime_rate
-└─ [calculated]                →   ├─ price_per_sqft (derived)
-                               →   ├─ total_rooms (bedrooms + bathrooms)
-                               →   └─ size_category_encoded (derived)
+└─ [calculated automatically] →   ├─ price_per_sqft (derived from market rates)
+                               →   └─ total_rooms (bedrooms + bathrooms)
 ```
 
 **Derived Feature Calculations:**
@@ -336,9 +391,9 @@ User Inputs (9 features):          Model Features (8 features):
 
 ### Feature Selection Rationale
 
-The preprocessing pipeline transforms 10 original features into 14 potential features, then selects the 8 most predictive:
+The preprocessing pipeline transforms 10 original features into 14 potential features, then selects the 7 most predictive:
 
-#### 🔴 **Features Discarded (6/14):**
+#### 🔴 **Features Discarded (7/14):**
 
 - **`bedrooms`** → Replaced by `total_rooms` (more predictive)
 - **`year_built`** → Age less important than size/location
@@ -346,8 +401,9 @@ The preprocessing pipeline transforms 10 original features into 14 potential fea
 - **`garage`** → Less predictive than other amenities
 - **`bed_bath_ratio`** → Total count more informative than ratio
 - **`age_category`** → Age binning not in top predictors
+- **`size_category_encoded`** → Categorical size bins have 0% importance
 
-#### ✅ **Features Selected (8/14):**
+#### ✅ **Features Selected (7/14):**
 
 1. **`square_feet`** - Strongest predictor (80.94% importance)
 2. **`price_per_sqft`** - Market value indicator (18.30% importance)
@@ -356,7 +412,6 @@ The preprocessing pipeline transforms 10 original features into 14 potential fea
 5. **`school_rating`** - Quality of life (0.13% importance)
 6. **`crime_rate`** - Safety factor (0.09% importance)
 7. **`bathrooms`** - Convenience factor (0.07% importance)
-8. **`size_category_encoded`** - Categorical size classification
 
 #### 🎯 **Key Insights:**
 
@@ -469,7 +524,7 @@ The GUI now intelligently maps user-friendly inputs to the model's optimized fea
 | Property Type        | Type reference | → Used for display only                   |
 | Garage               | Amenity info   | → Used for display only                   |
 
-**Technical Achievement:** The GUI maintains user experience with familiar real estate terms while automatically providing the scientifically-optimal 8 features the ML model needs for accurate predictions.
+**Technical Achievement:** The GUI maintains user experience with familiar real estate terms while automatically providing the scientifically-optimal 7 features the ML model needs for accurate predictions.
 
 **Impact:**
 

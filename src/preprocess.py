@@ -230,8 +230,10 @@ class HousePricePreprocessor:
         print("="*50)
         
         # Define potential features (excluding target and original categorical columns)
+        # Also excluding size_category_encoded as it has 0% importance in final model
         exclude_cols = [target_col, 'garage', 'garage_bool', 'neighborhood', 
-                       'property_type', 'age_category', 'size_category', 'year_built']
+                       'property_type', 'age_category', 'size_category', 'year_built',
+                       'size_category_encoded']
         
         feature_cols = [col for col in self.df_features.columns if col not in exclude_cols]
         
@@ -383,7 +385,7 @@ def main():
     df_features = preprocessor.feature_engineering()
     
     # Step 4: Feature selection
-    selected_features, X_selected, y = preprocessor.select_features(k=8)
+    selected_features, X_selected, y = preprocessor.select_features(k=7)
     
     # Step 5: Save processed data
     final_df = preprocessor.save_processed_data()

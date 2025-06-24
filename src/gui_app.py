@@ -248,18 +248,9 @@ class HousePricePredictorGUI:
         garage_combo.state(['readonly'])
         ttk.Label(input_frame, text="Property has garage/parking", style='Info.TLabel').grid(row=categorical_row+2, column=2, sticky=tk.W, pady=5, padx=(10, 0))
         
-        # Size Category
-        ttk.Label(input_frame, text="Size Category").grid(row=categorical_row+3, column=0, sticky=tk.W, pady=5, padx=(0, 10))
-        self.size_var = tk.StringVar(value="Medium")
-        size_combo = ttk.Combobox(input_frame, textvariable=self.size_var, width=12)
-        size_combo['values'] = ['Small', 'Medium', 'Large', 'XLarge']
-        size_combo.grid(row=categorical_row+3, column=1, sticky=tk.W, pady=5)
-        size_combo.state(['readonly'])
-        ttk.Label(input_frame, text="House size category", style='Info.TLabel').grid(row=categorical_row+3, column=2, sticky=tk.W, pady=5, padx=(10, 0))
-        
         # Buttons
         button_frame = ttk.Frame(input_frame)
-        button_frame.grid(row=categorical_row+4, column=0, columnspan=3, pady=20)
+        button_frame.grid(row=categorical_row+3, column=0, columnspan=3, pady=20)
         
         # Predict button
         self.predict_btn = ttk.Button(button_frame, 
@@ -412,7 +403,7 @@ RMSE: ${self.performance_metrics['test_rmse']:,.0f}
             error_message = "❌ Please fix the following issues:\n\n" + "\n".join(f"• {error}" for error in errors)
             messagebox.showwarning("Input Validation Issues", error_message)
 
-    def get_encoded_values(self, neighborhood, property_type, garage, size_category):
+    def get_encoded_values(self, neighborhood, property_type, garage):
         """Get encoded values for categorical features"""
         # Neighborhood encoding (based on alphabetical order from preprocessing)
         neighborhood_encoding = {
@@ -436,18 +427,9 @@ RMSE: ${self.performance_metrics['test_rmse']:,.0f}
         # Garage encoding
         garage_encoding = {'Yes': 1, 'No': 0}
         
-        # Size category encoding
-        size_encoding = {
-            'Small': 0,
-            'Medium': 1,
-            'Large': 2,
-            'XLarge': 3
-        }
-        
         return (neighborhood_encoding.get(neighborhood, 4), 
                 property_type_encoding.get(property_type, 2),
-                garage_encoding.get(garage, 1),
-                size_encoding.get(size_category, 1))
+                garage_encoding.get(garage, 1))
     
     def predict_price(self):
         """Make a price prediction based on input values"""
@@ -469,7 +451,6 @@ RMSE: ${self.performance_metrics['test_rmse']:,.0f}
             neighborhood = self.neighborhood_var.get()
             property_type = self.property_type_var.get()
             garage = self.garage_var.get()
-            size_category = self.size_var.get()
             
             # Calculate derived features
             current_year = 2024
@@ -478,12 +459,12 @@ RMSE: ${self.performance_metrics['test_rmse']:,.0f}
             price_per_sqft = 200  # Reasonable default, will be adjusted by model
             
             # Get encoded categorical values
-            neighborhood_encoded, property_type_encoded, garage_encoded, size_category_encoded = self.get_encoded_values(
-                neighborhood, property_type, garage, size_category)
+            neighborhood_encoded, property_type_encoded, garage_encoded = self.get_encoded_values(
+                neighborhood, property_type, garage)
             
             # Create feature array in the same order as training data
             # Based on the processed CSV: bathrooms, square_feet, school_rating, crime_rate, 
-            # price_per_sqft, total_rooms, neighborhood_encoded, size_category_encoded
+            # price_per_sqft, total_rooms, neighborhood_encoded (7 features total)
             features = np.array([[
                 bathrooms,
                 square_feet,
@@ -491,8 +472,7 @@ RMSE: ${self.performance_metrics['test_rmse']:,.0f}
                 crime_rate,
                 price_per_sqft,
                 total_rooms,
-                neighborhood_encoded,
-                size_category_encoded
+                neighborhood_encoded
             ]])
             
             # Make prediction
@@ -511,8 +491,7 @@ RMSE: ${self.performance_metrics['test_rmse']:,.0f}
                 'price_per_sqft': price_per_sqft,
                 'neighborhood': neighborhood,
                 'property_type': property_type,
-                'garage': garage,
-                'size_category': size_category
+                'garage': garage
             })
             
             # Add to history
@@ -556,7 +535,7 @@ RMSE: ${self.performance_metrics['test_rmse']:,.0f}
         # Create feature summary
         summary_text = f"""
 Property Details:
-• {features['square_feet']:,} sq ft {features['size_category'].lower()} {features['property_type'].lower()}
+• {features['square_feet']:,} sq ft {features['property_type'].lower()}
 • {features['bedrooms']} bedrooms, {features['bathrooms']} bathrooms ({features['total_rooms']} total rooms)
 • Built in {features['year_built']} ({features['house_age']} years old)
 • Located in {features['neighborhood']}
@@ -621,23 +600,23 @@ Property Details:
         examples = [
             {
                 'bedrooms': 3, 'bathrooms': 2.5, 'square_feet': 1800, 'year_built': 2000, 'school_rating': 8.5,
-                'crime_rate': 2.1, 'neighborhood': 'Suburbs', 'property_type': 'Single Family', 'garage': 'Yes', 'size_category': 'Medium'
+                'crime_rate': 2.1, 'neighborhood': 'Suburbs', 'property_type': 'Single Family', 'garage': 'Yes'
             },
             {
                 'bedrooms': 4, 'bathrooms': 3.0, 'square_feet': 2800, 'year_built': 2015, 'school_rating': 9.2,
-                'crime_rate': 1.5, 'neighborhood': 'Waterfront', 'property_type': 'Single Family', 'garage': 'Yes', 'size_category': 'Large'
+                'crime_rate': 1.5, 'neighborhood': 'Waterfront', 'property_type': 'Single Family', 'garage': 'Yes'
             },
             {
                 'bedrooms': 2, 'bathrooms': 1.5, 'square_feet': 1200, 'year_built': 1980, 'school_rating': 6.8,
-                'crime_rate': 4.5, 'neighborhood': 'Downtown', 'property_type': 'Condo', 'garage': 'No', 'size_category': 'Small'
+                'crime_rate': 4.5, 'neighborhood': 'Downtown', 'property_type': 'Condo', 'garage': 'No'
             },
             {
                 'bedrooms': 5, 'bathrooms': 4.0, 'square_feet': 4200, 'year_built': 1990, 'school_rating': 9.8,
-                'crime_rate': 0.8, 'neighborhood': 'Historic', 'property_type': 'Single Family', 'garage': 'Yes', 'size_category': 'XLarge'
+                'crime_rate': 0.8, 'neighborhood': 'Historic', 'property_type': 'Single Family', 'garage': 'Yes'
             },
             {
                 'bedrooms': 3, 'bathrooms': 2.0, 'square_feet': 1600, 'year_built': 2005, 'school_rating': 7.5,
-                'crime_rate': 3.2, 'neighborhood': 'University District', 'property_type': 'Townhouse', 'garage': 'Yes', 'size_category': 'Medium'
+                'crime_rate': 3.2, 'neighborhood': 'University District', 'property_type': 'Townhouse', 'garage': 'Yes'
             }
         ]
         
@@ -653,7 +632,6 @@ Property Details:
         self.neighborhood_var.set(example['neighborhood'])
         self.property_type_var.set(example['property_type'])
         self.garage_var.set(example['garage'])
-        self.size_var.set(example['size_category'])
     
     def clear_inputs(self):
         """Clear all input fields to default values"""
@@ -666,7 +644,6 @@ Property Details:
         self.neighborhood_var.set("Suburbs")
         self.property_type_var.set("Single Family")
         self.garage_var.set("Yes")
-        self.size_var.set("Medium")
         
         # Reset prediction display
         self.create_prediction_display()
